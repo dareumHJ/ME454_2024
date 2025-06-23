@@ -1,0 +1,1 @@
+Invoking command in '/home/dareum/ME454/ros2_ws/build/cartpole': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(mujoco_py) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/cartpole -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/cartpole

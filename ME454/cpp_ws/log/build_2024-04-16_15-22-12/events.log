@@ -1,0 +1,394 @@
+[0.000000] (-) TimerEvent: {}
+[0.000981] (-) JobUnselected: {'identifier': 'homework2'}
+[0.001059] (-) JobUnselected: {'identifier': 'homework2'}
+[0.001108] (-) JobUnselected: {'identifier': 'list4arr'}
+[0.001157] (-) JobUnselected: {'identifier': 'list4ptr'}
+[0.001204] (-) JobUnselected: {'identifier': 'midterm'}
+[0.001253] (-) JobUnselected: {'identifier': 'midterm'}
+[0.001309] (-) JobUnselected: {'identifier': 'midterm_2024_msg'}
+[0.001364] (midterm_2024) JobQueued: {'identifier': 'midterm_2024', 'dependencies': OrderedDict([('midterm_2024_msg', '/home/dareum/ME454/cpp_ws/install/midterm_2024_msg')])}
+[0.001412] (midterm_2024) JobStarted: {'identifier': 'midterm_2024'}
+[0.099264] (-) TimerEvent: {}
+[0.146199] (midterm_2024) JobProgress: {'identifier': 'midterm_2024', 'progress': 'cmake'}
+[0.147120] (midterm_2024) Command: {'cmd': ['/usr/bin/cmake', '/home/dareum/ME454/cpp_ws/midterm_2024', '-DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/cpp_ws/install/midterm_2024'], 'cwd': '/home/dareum/ME454/cpp_ws/build/midterm_2024', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dareum'), ('GIT_ASKPASS', '/home/dareum/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/dareum/ME454/cpp_ws/install/midterm_2024_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dareum'), ('OLDPWD', '/home/dareum/ME454/cpp_ws/midterm_2024'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1137af17-4f9b-4504-a781-3ae914cef2c3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dareum/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dareum/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dareum'), ('NAME', 'DAREUM'), ('WSL_INTEROP', '/run/WSL/12_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dareum/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/gnuplot/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/dareu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/dareu/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/dareum/.dotnet/tools:/home/dareum/.local/share/coursier/bin'), ('DISPLAY', '172.30.64.1:0'), ('LANG', 'en_US.UTF-8'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/dareum/.cache/dotnet_bundle_extract'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-3c5449984f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/dareum/ME454/cpp_ws/install/midterm_2024_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/dareum/ME454/cpp_ws/build/midterm_2024'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dareum/ME454/cpp_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/dareum/ME454/cpp_ws/install/midterm_2024_msg:/opt/ros/humble')]), 'shell': False}
+[0.199420] (-) TimerEvent: {}
+[0.300043] (-) TimerEvent: {}
+[0.301829] (midterm_2024) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.400246] (-) TimerEvent: {}
+[0.500923] (-) TimerEvent: {}
+[0.601692] (-) TimerEvent: {}
+[0.702419] (-) TimerEvent: {}
+[0.803105] (-) TimerEvent: {}
+[0.903886] (-) TimerEvent: {}
+[0.932616] (midterm_2024) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.004177] (-) TimerEvent: {}
+[1.105089] (-) TimerEvent: {}
+[1.205851] (-) TimerEvent: {}
+[1.306494] (-) TimerEvent: {}
+[1.369581] (midterm_2024) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.406680] (-) TimerEvent: {}
+[1.507275] (-) TimerEvent: {}
+[1.530571] (midterm_2024) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.535580] (midterm_2024) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.535862] (midterm_2024) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.536271] (midterm_2024) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.539079] (midterm_2024) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.607477] (-) TimerEvent: {}
+[1.702508] (midterm_2024) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.707444] (midterm_2024) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.707705] (-) TimerEvent: {}
+[1.708226] (midterm_2024) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.708456] (midterm_2024) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.710216] (midterm_2024) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.807935] (-) TimerEvent: {}
+[1.816447] (midterm_2024) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.888175] (midterm_2024) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.908091] (-) TimerEvent: {}
+[2.008704] (-) TimerEvent: {}
+[2.067959] (midterm_2024) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.070708] (midterm_2024) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.076194] (midterm_2024) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.084521] (midterm_2024) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.096620] (midterm_2024) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.108796] (-) TimerEvent: {}
+[2.148601] (midterm_2024) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.150158] (midterm_2024) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.209033] (-) TimerEvent: {}
+[2.309770] (-) TimerEvent: {}
+[2.410401] (-) TimerEvent: {}
+[2.511031] (-) TimerEvent: {}
+[2.611796] (-) TimerEvent: {}
+[2.712632] (-) TimerEvent: {}
+[2.813562] (-) TimerEvent: {}
+[2.914207] (-) TimerEvent: {}
+[3.014693] (-) TimerEvent: {}
+[3.115373] (-) TimerEvent: {}
+[3.216061] (-) TimerEvent: {}
+[3.316737] (-) TimerEvent: {}
+[3.417400] (-) TimerEvent: {}
+[3.518115] (-) TimerEvent: {}
+[3.618976] (-) TimerEvent: {}
+[3.698809] (midterm_2024) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.719093] (-) TimerEvent: {}
+[3.819567] (-) TimerEvent: {}
+[3.920177] (-) TimerEvent: {}
+[4.020959] (-) TimerEvent: {}
+[4.121584] (-) TimerEvent: {}
+[4.222015] (-) TimerEvent: {}
+[4.322615] (-) TimerEvent: {}
+[4.423477] (-) TimerEvent: {}
+[4.524060] (-) TimerEvent: {}
+[4.624670] (-) TimerEvent: {}
+[4.725495] (-) TimerEvent: {}
+[4.826198] (-) TimerEvent: {}
+[4.926971] (-) TimerEvent: {}
+[5.027625] (-) TimerEvent: {}
+[5.128182] (-) TimerEvent: {}
+[5.228850] (-) TimerEvent: {}
+[5.329634] (-) TimerEvent: {}
+[5.430353] (-) TimerEvent: {}
+[5.453206] (midterm_2024) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.530587] (-) TimerEvent: {}
+[5.631288] (-) TimerEvent: {}
+[5.731897] (-) TimerEvent: {}
+[5.832489] (-) TimerEvent: {}
+[5.933057] (-) TimerEvent: {}
+[6.033751] (-) TimerEvent: {}
+[6.134179] (-) TimerEvent: {}
+[6.234667] (-) TimerEvent: {}
+[6.335407] (-) TimerEvent: {}
+[6.436127] (-) TimerEvent: {}
+[6.536841] (-) TimerEvent: {}
+[6.637534] (-) TimerEvent: {}
+[6.738195] (-) TimerEvent: {}
+[6.839183] (-) TimerEvent: {}
+[6.940036] (-) TimerEvent: {}
+[7.040774] (-) TimerEvent: {}
+[7.141552] (-) TimerEvent: {}
+[7.242308] (-) TimerEvent: {}
+[7.342971] (-) TimerEvent: {}
+[7.443759] (-) TimerEvent: {}
+[7.544561] (-) TimerEvent: {}
+[7.645186] (-) TimerEvent: {}
+[7.745717] (-) TimerEvent: {}
+[7.846317] (-) TimerEvent: {}
+[7.946921] (-) TimerEvent: {}
+[8.047688] (-) TimerEvent: {}
+[8.148450] (-) TimerEvent: {}
+[8.249178] (-) TimerEvent: {}
+[8.349720] (-) TimerEvent: {}
+[8.450368] (-) TimerEvent: {}
+[8.551165] (-) TimerEvent: {}
+[8.651589] (-) TimerEvent: {}
+[8.683506] (midterm_2024) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.689289] (midterm_2024) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.751800] (-) TimerEvent: {}
+[8.852528] (-) TimerEvent: {}
+[8.854608] (midterm_2024) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.855146] (midterm_2024) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.952722] (-) TimerEvent: {}
+[9.000048] (midterm_2024) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.000953] (midterm_2024) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.052897] (-) TimerEvent: {}
+[9.135205] (midterm_2024) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[9.153040] (-) TimerEvent: {}
+[9.253602] (-) TimerEvent: {}
+[9.325443] (midterm_2024) StdoutLine: {'line': b'-- Found midterm_2024_msg: 0.0.0 (/home/dareum/ME454/cpp_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake)\n'}
+[9.353721] (-) TimerEvent: {}
+[9.415530] (midterm_2024) StdoutLine: {'line': b'-- Found mymat library: /home/dareum/ME454/cpp_ws/midterm_2024/lib/libmymat.so\n'}
+[9.419259] (midterm_2024) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.453957] (-) TimerEvent: {}
+[9.478020] (midterm_2024) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.479467] (midterm_2024) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.479860] (midterm_2024) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/dareum/ME454/cpp_ws/midterm_2024/include\n'}
+[9.479955] (midterm_2024) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.480776] (midterm_2024) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[9.480895] (midterm_2024) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[9.481302] (midterm_2024) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.481743] (midterm_2024) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.482147] (midterm_2024) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.482912] (midterm_2024) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.483031] (midterm_2024) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.483423] (midterm_2024) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.484465] (midterm_2024) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.496621] (midterm_2024) StdoutLine: {'line': b'-- Generating done\n'}
+[9.497925] (midterm_2024) StdoutLine: {'line': b'-- Build files have been written to: /home/dareum/ME454/cpp_ws/build/midterm_2024\n'}
+[9.516236] (midterm_2024) CommandEnded: {'returncode': 0}
+[9.518859] (midterm_2024) JobProgress: {'identifier': 'midterm_2024', 'progress': 'build'}
+[9.518924] (midterm_2024) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dareum/ME454/cpp_ws/build/midterm_2024', '--', '-j16', '-l16'], 'cwd': '/home/dareum/ME454/cpp_ws/build/midterm_2024', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dareum'), ('GIT_ASKPASS', '/home/dareum/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/dareum/ME454/cpp_ws/install/midterm_2024_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dareum'), ('OLDPWD', '/home/dareum/ME454/cpp_ws/midterm_2024'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1137af17-4f9b-4504-a781-3ae914cef2c3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dareum/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dareum/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dareum'), ('NAME', 'DAREUM'), ('WSL_INTEROP', '/run/WSL/12_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dareum/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/gnuplot/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/dareu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/dareu/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/dareum/.dotnet/tools:/home/dareum/.local/share/coursier/bin'), ('DISPLAY', '172.30.64.1:0'), ('LANG', 'en_US.UTF-8'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/dareum/.cache/dotnet_bundle_extract'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-3c5449984f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/dareum/ME454/cpp_ws/install/midterm_2024_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/dareum/ME454/cpp_ws/build/midterm_2024'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dareum/ME454/cpp_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/dareum/ME454/cpp_ws/install/midterm_2024_msg:/opt/ros/humble')]), 'shell': False}
+[9.554138] (-) TimerEvent: {}
+[9.556053] (midterm_2024) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sun_torque_generator_20200282.dir/src/sun_torque_generator_20200282.cpp.o\x1b[0m\n'}
+[9.556310] (midterm_2024) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/recorder_20200282.dir/src/recorder_20200282.cpp.o\x1b[0m\n'}
+[9.654308] (-) TimerEvent: {}
+[9.754996] (-) TimerEvent: {}
+[9.855624] (-) TimerEvent: {}
+[9.956314] (-) TimerEvent: {}
+[10.056997] (-) TimerEvent: {}
+[10.157687] (-) TimerEvent: {}
+[10.258497] (-) TimerEvent: {}
+[10.359276] (-) TimerEvent: {}
+[10.460001] (-) TimerEvent: {}
+[10.560636] (-) TimerEvent: {}
+[10.661216] (-) TimerEvent: {}
+[10.761726] (-) TimerEvent: {}
+[10.862149] (-) TimerEvent: {}
+[10.962621] (-) TimerEvent: {}
+[11.063207] (-) TimerEvent: {}
+[11.163824] (-) TimerEvent: {}
+[11.264686] (-) TimerEvent: {}
+[11.365511] (-) TimerEvent: {}
+[11.466029] (-) TimerEvent: {}
+[11.566875] (-) TimerEvent: {}
+[11.667563] (-) TimerEvent: {}
+[11.768206] (-) TimerEvent: {}
+[11.868914] (-) TimerEvent: {}
+[11.969592] (-) TimerEvent: {}
+[12.024794] (midterm_2024) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/recorder_20200282.cpp:11\x1b[m\x1b[K:\n'}
+[12.025434] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/include/mymat.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMat33::Mat33(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.025845] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/include/mymat.hpp:57:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr MatBase::MatBase(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.026039] (midterm_2024) StderrLine: {'line': b'   57 |         Mat33(const MatBase& base) : MatBase(base\x1b[01;35m\x1b[K)\x1b[m\x1b[K { } // cast to MatBase\n'}
+[12.026202] (midterm_2024) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.026359] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/include/mymat.hpp:26:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KMatBase\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Kvoid MatBase::operator=(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.026587] (midterm_2024) StderrLine: {'line': b'   26 |         void \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K= (const MatBase &mat); // assignment\n'}
+[12.026637] (midterm_2024) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.026674] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/include/mymat.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KVec3::Vec3(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.026708] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/include/mymat.hpp:71:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr MatBase::MatBase(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.026744] (midterm_2024) StderrLine: {'line': b'   71 |         Vec3(const MatBase& base) : MatBase(base\x1b[01;35m\x1b[K)\x1b[m\x1b[K {  } // cast to MatBase\n'}
+[12.026774] (midterm_2024) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.026803] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/include/mymat.hpp:26:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KMatBase\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Kvoid MatBase::operator=(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.026834] (midterm_2024) StderrLine: {'line': b'   26 |         void \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K= (const MatBase &mat); // assignment\n'}
+[12.026863] (midterm_2024) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.026896] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/include/mymat.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KVec4::Vec4(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.026925] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/include/mymat.hpp:88:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr MatBase::MatBase(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.026954] (midterm_2024) StderrLine: {'line': b'   88 |     Vec4(const MatBase& base) : MatBase(base\x1b[01;35m\x1b[K)\x1b[m\x1b[K {  } // cast to MatBase\n'}
+[12.026981] (midterm_2024) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.027011] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/include/mymat.hpp:26:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KMatBase\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Kvoid MatBase::operator=(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.027079] (midterm_2024) StderrLine: {'line': b'   26 |         void \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K= (const MatBase &mat); // assignment\n'}
+[12.027124] (midterm_2024) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.030500] (midterm_2024) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:12\x1b[m\x1b[K:\n'}
+[12.030726] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/include/mymat.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMat33::Mat33(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.030773] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/include/mymat.hpp:57:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr MatBase::MatBase(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.030812] (midterm_2024) StderrLine: {'line': b'   57 |         Mat33(const MatBase& base) : MatBase(base\x1b[01;35m\x1b[K)\x1b[m\x1b[K { } // cast to MatBase\n'}
+[12.030849] (midterm_2024) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.030878] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/include/mymat.hpp:26:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KMatBase\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Kvoid MatBase::operator=(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.030907] (midterm_2024) StderrLine: {'line': b'   26 |         void \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K= (const MatBase &mat); // assignment\n'}
+[12.030941] (midterm_2024) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.030970] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/include/mymat.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KVec3::Vec3(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.030999] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/include/mymat.hpp:71:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr MatBase::MatBase(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.031032] (midterm_2024) StderrLine: {'line': b'   71 |         Vec3(const MatBase& base) : MatBase(base\x1b[01;35m\x1b[K)\x1b[m\x1b[K {  } // cast to MatBase\n'}
+[12.031061] (midterm_2024) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.031088] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/include/mymat.hpp:26:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KMatBase\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Kvoid MatBase::operator=(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.031120] (midterm_2024) StderrLine: {'line': b'   26 |         void \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K= (const MatBase &mat); // assignment\n'}
+[12.031147] (midterm_2024) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.031177] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/include/mymat.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KVec4::Vec4(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.031208] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/include/mymat.hpp:88:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr MatBase::MatBase(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.031242] (midterm_2024) StderrLine: {'line': b'   88 |     Vec4(const MatBase& base) : MatBase(base\x1b[01;35m\x1b[K)\x1b[m\x1b[K {  } // cast to MatBase\n'}
+[12.031271] (midterm_2024) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.031299] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/include/mymat.hpp:26:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KMatBase\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Kvoid MatBase::operator=(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.031328] (midterm_2024) StderrLine: {'line': b'   26 |         void \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K= (const MatBase &mat); // assignment\n'}
+[12.031391] (midterm_2024) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.032511] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/recorder_20200282.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Recorder::topic_callback(midterm_2024_msg::msg::Midterm_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.032653] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/recorder_20200282.cpp:36:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.032949] (midterm_2024) StderrLine: {'line': b'   36 |     void topic_callback(\x1b[01;35m\x1b[Kconst midterm_2024_msg::msg::Midterm::SharedPtr msg\x1b[m\x1b[K)\n'}
+[12.033046] (midterm_2024) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[12.069771] (-) TimerEvent: {}
+[12.076319] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSun_generator::Sun_generator(const char*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.076714] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:31:103:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<geometry_msgs::msg::Wrench_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Wrench_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<midterm_2024_msg::msg::Midterm_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[12.076853] (midterm_2024) StderrLine: {'line': b'   31 |         publisher__ = this->create_publisher<midterm_2024_msg::msg::Midterm>("/Midterm/recordings", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[12.076948] (midterm_2024) StderrLine: {'line': b'      |                                                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.077643] (midterm_2024) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[12.077706] (midterm_2024) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:1\x1b[m\x1b[K:\n'}
+[12.077749] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<geometry_msgs::msg::Wrench_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.077792] (midterm_2024) StderrLine: {'line': b'  363 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[12.077824] (midterm_2024) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.077854] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.077887] (midterm_2024) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Publisher<midterm_2024_msg::msg::Midterm_<std::allocator<void> >, std::allocator<void> > >&; _Tp = rclcpp::Publisher<geometry_msgs::msg::Wrench_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.077921] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Wrench_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Wrench_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Publisher<midterm_2024_msg::msg::Midterm_<std::allocator<void> >, std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.078007] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:31:103:\x1b[m\x1b[K   required from here\n'}
+[12.078056] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Wrench_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.078110] (midterm_2024) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[12.078189] (midterm_2024) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.078231] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<geometry_msgs::msg::Wrench_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.078273] (midterm_2024) StderrLine: {'line': b'  374 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[12.078306] (midterm_2024) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.078387] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.078460] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:31:103:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<midterm_2024_msg::msg::Midterm_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.078564] (midterm_2024) StderrLine: {'line': b'   31 |         publisher__ = this->create_publisher<midterm_2024_msg::msg::Midterm>("/Midterm/recordings", 10\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[12.078635] (midterm_2024) StderrLine: {'line': b'      |                                                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[12.078677] (midterm_2024) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[12.078717] (midterm_2024) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:1\x1b[m\x1b[K:\n'}
+[12.078772] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<geometry_msgs::msg::Wrench_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.078847] (midterm_2024) StderrLine: {'line': b'  391 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[12.078911] (midterm_2024) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.078963] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.079014] (midterm_2024) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Publisher<midterm_2024_msg::msg::Midterm_<std::allocator<void> >, std::allocator<void> > >; _Tp = rclcpp::Publisher<geometry_msgs::msg::Wrench_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.079063] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Wrench_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Wrench_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Publisher<midterm_2024_msg::msg::Midterm_<std::allocator<void> >, std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.079225] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:31:103:\x1b[m\x1b[K   required from here\n'}
+[12.079286] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Wrench_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.079335] (midterm_2024) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[12.079373] (midterm_2024) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.079410] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Publisher<geometry_msgs::msg::Wrench_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.079448] (midterm_2024) StderrLine: {'line': b'  399 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[12.079481] (midterm_2024) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.079512] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.079543] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:31:103:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<midterm_2024_msg::msg::Midterm_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.079581] (midterm_2024) StderrLine: {'line': b'   31 |         publisher__ = this->create_publisher<midterm_2024_msg::msg::Midterm>("/Midterm/recordings", 10\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[12.079619] (midterm_2024) StderrLine: {'line': b'      |                                                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[12.079652] (midterm_2024) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[12.079680] (midterm_2024) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:1\x1b[m\x1b[K:\n'}
+[12.079710] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Publisher<geometry_msgs::msg::Wrench_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.079743] (midterm_2024) StderrLine: {'line': b'  359 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[12.079780] (midterm_2024) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.079811] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<midterm_2024_msg::msg::Midterm_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Wrench_<std::allocator<void> > > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.079849] (midterm_2024) StderrLine: {'line': b'  359 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[12.079879] (midterm_2024) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.079913] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Publisher<geometry_msgs::msg::Wrench_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.079945] (midterm_2024) StderrLine: {'line': b'  383 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[12.079975] (midterm_2024) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.080006] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<midterm_2024_msg::msg::Midterm_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Wrench_<std::allocator<void> > > >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.080042] (midterm_2024) StderrLine: {'line': b'  383 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[12.080072] (midterm_2024) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[12.080630] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Sun_generator::topic_callback(gazebo_msgs::msg::ModelStates_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.080785] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:52:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconflicting declaration \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point message_pose\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.080891] (midterm_2024) StderrLine: {'line': b'   52 |         geometry_msgs::msg::Point \x1b[01;31m\x1b[Kmessage_pose\x1b[m\x1b[K;\n'}
+[12.081093] (midterm_2024) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.081275] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:49:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration as \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> > message_pose\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.081658] (midterm_2024) StderrLine: {'line': b'   49 |         auto \x1b[01;36m\x1b[Kmessage_pose\x1b[m\x1b[K = msg->pose[1];\n'}
+[12.081753] (midterm_2024) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.081911] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:53:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[K.\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[12.082116] (midterm_2024) StderrLine: {'line': b'   53 |         geometry_msgs::msg::Quaternion message_twist\x1b[01;31m\x1b[K.\x1b[m\x1b[Korientation;\n'}
+[12.083573] (midterm_2024) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.083632] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:54:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[K.\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[12.083682] (midterm_2024) StderrLine: {'line': b'   54 |         geometry_msgs::msg::Vector3 message_twist\x1b[01;31m\x1b[K.\x1b[m\x1b[Kangular;\n'}
+[12.083718] (midterm_2024) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.083751] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:75:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconflicting declaration \xe2\x80\x98\x1b[01m\x1b[KVec3 z\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.083785] (midterm_2024) StderrLine: {'line': b'   75 |         Vec3 \x1b[01;31m\x1b[Kz\x1b[m\x1b[K(0, 0, 1);\n'}
+[12.083815] (midterm_2024) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.083848] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:59:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration as \xe2\x80\x98\x1b[01m\x1b[Kdouble z\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.083881] (midterm_2024) StderrLine: {'line': b'   59 |         double \x1b[01;36m\x1b[Kz\x1b[m\x1b[K = message_pose.position.z;\n'}
+[12.083913] (midterm_2024) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[12.083943] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:76:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Vec3&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.083976] (midterm_2024) StderrLine: {'line': b'   76 |         Vec3 T = w.cross(\x1b[01;31m\x1b[Kz\x1b[m\x1b[K);\n'}
+[12.084007] (midterm_2024) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.084038] (midterm_2024) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[12.084071] (midterm_2024) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[12.084102] (midterm_2024) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:12\x1b[m\x1b[K:\n'}
+[12.084138] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/include/mymat.hpp:74:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[KVec3 Vec3::cross(const Vec3&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.084172] (midterm_2024) StderrLine: {'line': b'   74 |         Vec3 cross(\x1b[01;36m\x1b[Kconst Vec3 &vec\x1b[m\x1b[K); // cross product\n'}
+[12.084204] (midterm_2024) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[12.084234] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:78:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Wrench_<std::allocator<void> >::_torque_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[KVec3\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[12.084266] (midterm_2024) StderrLine: {'line': b'   78 |         message.torque = \x1b[01;31m\x1b[KT\x1b[m\x1b[K;\n'}
+[12.084296] (midterm_2024) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.084327] (midterm_2024) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:21\x1b[m\x1b[K,\n'}
+[12.084357] (midterm_2024) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/gazebo_msgs/gazebo_msgs/msg/detail/model_states__struct.hpp:22\x1b[m\x1b[K,\n'}
+[12.084392] (midterm_2024) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/gazebo_msgs/gazebo_msgs/msg/model_states.hpp:7\x1b[m\x1b[K,\n'}
+[12.084426] (midterm_2024) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:3\x1b[m\x1b[K:\n'}
+[12.084455] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr geometry_msgs::msg::Vector3_<std::allocator<void> >& geometry_msgs::msg::Vector3_<std::allocator<void> >::operator=(const geometry_msgs::msg::Vector3_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.084488] (midterm_2024) StderrLine: {'line': b'   32 | struct \x1b[01;36m\x1b[KVector3_\x1b[m\x1b[K\n'}
+[12.084518] (midterm_2024) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.084547] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KVec3\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst geometry_msgs::msg::Vector3_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.084579] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr geometry_msgs::msg::Vector3_<std::allocator<void> >& geometry_msgs::msg::Vector3_<std::allocator<void> >::operator=(geometry_msgs::msg::Vector3_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.084614] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KVec3\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.084646] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:79:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::Wrench_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpose\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.084677] (midterm_2024) StderrLine: {'line': b'   79 |         message.\x1b[01;31m\x1b[Kpose\x1b[m\x1b[K = message_pose;\n'}
+[12.084706] (midterm_2024) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[12.084736] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:80:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::Wrench_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktwist\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.084769] (midterm_2024) StderrLine: {'line': b'   80 |         message.\x1b[01;31m\x1b[Ktwist\x1b[m\x1b[K = message_twist;\n'}
+[12.084799] (midterm_2024) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[12.084829] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:57:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.084860] (midterm_2024) StderrLine: {'line': b'   57 |         double \x1b[01;35m\x1b[Kx\x1b[m\x1b[K = message_pose.position.x;\n'}
+[12.084891] (midterm_2024) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.084919] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.084952] (midterm_2024) StderrLine: {'line': b'   58 |         double \x1b[01;35m\x1b[Ky\x1b[m\x1b[K = message_pose.position.y;\n'}
+[12.084981] (midterm_2024) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.085009] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:65:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.085038] (midterm_2024) StderrLine: {'line': b'   65 |         double \x1b[01;35m\x1b[Kdx\x1b[m\x1b[K = message_twist.linear.x;\n'}
+[12.085066] (midterm_2024) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[12.085095] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdy\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.085125] (midterm_2024) StderrLine: {'line': b'   66 |         double \x1b[01;35m\x1b[Kdy\x1b[m\x1b[K = message_twist.linear.y;\n'}
+[12.085153] (midterm_2024) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[12.085182] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:67:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdz\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.085211] (midterm_2024) StderrLine: {'line': b'   67 |         double \x1b[01;35m\x1b[Kdz\x1b[m\x1b[K = message_twist.linear.z;\n'}
+[12.085244] (midterm_2024) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[12.085276] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:69:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kq_x\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.085316] (midterm_2024) StderrLine: {'line': b'   69 |         double \x1b[01;35m\x1b[Kq_x\x1b[m\x1b[K = message_pose.orientation.x;\n'}
+[12.085346] (midterm_2024) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[12.085374] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:70:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kq_y\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.085403] (midterm_2024) StderrLine: {'line': b'   70 |         double \x1b[01;35m\x1b[Kq_y\x1b[m\x1b[K = message_pose.orientation.y;\n'}
+[12.085438] (midterm_2024) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[12.085467] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:71:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kq_z\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.085499] (midterm_2024) StderrLine: {'line': b'   71 |         double \x1b[01;35m\x1b[Kq_z\x1b[m\x1b[K = message_pose.orientation.z;\n'}
+[12.085526] (midterm_2024) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[12.085554] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/cpp_ws/midterm_2024/src/sun_torque_generator_20200282.cpp:72:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kq_w\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.085582] (midterm_2024) StderrLine: {'line': b'   72 |         double \x1b[01;35m\x1b[Kq_w\x1b[m\x1b[K = message_pose.orientation.w;\n'}
+[12.085610] (midterm_2024) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[12.169991] (-) TimerEvent: {}
+[12.270612] (-) TimerEvent: {}
+[12.371144] (-) TimerEvent: {}
+[12.471715] (-) TimerEvent: {}
+[12.502541] (midterm_2024) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable recorder_20200282\x1b[0m\n'}
+[12.571842] (-) TimerEvent: {}
+[12.672715] (-) TimerEvent: {}
+[12.717658] (midterm_2024) StdoutLine: {'line': b'[ 75%] Built target recorder_20200282\n'}
+[12.772946] (-) TimerEvent: {}
+[12.873524] (-) TimerEvent: {}
+[12.974193] (-) TimerEvent: {}
+[13.074832] (-) TimerEvent: {}
+[13.175468] (-) TimerEvent: {}
+[13.276079] (-) TimerEvent: {}
+[13.376576] (-) TimerEvent: {}
+[13.477238] (-) TimerEvent: {}
+[13.577914] (-) TimerEvent: {}
+[13.678610] (-) TimerEvent: {}
+[13.779252] (-) TimerEvent: {}
+[13.879932] (-) TimerEvent: {}
+[13.980573] (-) TimerEvent: {}
+[14.081153] (-) TimerEvent: {}
+[14.181829] (-) TimerEvent: {}
+[14.233507] (midterm_2024) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sun_torque_generator_20200282.dir/build.make:76: CMakeFiles/sun_torque_generator_20200282.dir/src/sun_torque_generator_20200282.cpp.o] Error 1\n'}
+[14.234038] (midterm_2024) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/sun_torque_generator_20200282.dir/all] Error 2\n'}
+[14.234169] (midterm_2024) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[14.235653] (midterm_2024) CommandEnded: {'returncode': 2}
+[14.277598] (midterm_2024) JobEnded: {'identifier': 'midterm_2024', 'rc': 2}
+[14.282313] (-) TimerEvent: {}
+[14.288989] (-) EventReactorShutdown: {}

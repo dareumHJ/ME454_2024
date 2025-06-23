@@ -1,0 +1,61 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/dareum/ME454/ros2_ws/build/four_bar_linkage/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a5490/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a5490.dir/build.make CMakeFiles/cmTC_a5490.dir/build
+gmake[1]: Entering directory '/home/dareum/ME454/ros2_ws/build/four_bar_linkage/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5490.dir/src.c.o
+/home/dareum/anaconda3/envs/mujoco_py/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a5490.dir/src.c.o -c /home/dareum/ME454/ros2_ws/build/four_bar_linkage/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a5490
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5490.dir/link.txt --verbose=1
+/home/dareum/anaconda3/envs/mujoco_py/bin/cc CMakeFiles/cmTC_a5490.dir/src.c.o -o cmTC_a5490 
+/home/dareum/anaconda3/envs/mujoco_py/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: CMakeFiles/cmTC_a5490.dir/src.c.o: in function `main':
+src.c:(.text+0x2f): undefined reference to `pthread_create'
+/home/dareum/anaconda3/envs/mujoco_py/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x3b): undefined reference to `pthread_detach'
+/home/dareum/anaconda3/envs/mujoco_py/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x47): undefined reference to `pthread_cancel'
+/home/dareum/anaconda3/envs/mujoco_py/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x58): undefined reference to `pthread_join'
+/home/dareum/anaconda3/envs/mujoco_py/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text+0x6c): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_a5490.dir/build.make:99: cmTC_a5490] Error 1
+gmake[1]: Leaving directory '/home/dareum/ME454/ros2_ws/build/four_bar_linkage/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a5490/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/dareum/ME454/ros2_ws/build/four_bar_linkage/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_97abd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_97abd.dir/build.make CMakeFiles/cmTC_97abd.dir/build
+gmake[1]: Entering directory '/home/dareum/ME454/ros2_ws/build/four_bar_linkage/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97abd.dir/CheckFunctionExists.c.o
+/home/dareum/anaconda3/envs/mujoco_py/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_97abd.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_97abd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97abd.dir/link.txt --verbose=1
+/home/dareum/anaconda3/envs/mujoco_py/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_97abd.dir/CheckFunctionExists.c.o -o cmTC_97abd  -lpthreads 
+/home/dareum/anaconda3/envs/mujoco_py/bin/../lib/gcc/x86_64-conda-linux-gnu/12.1.0/../../../../x86_64-conda-linux-gnu/bin/ld: cannot find -lpthreads: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_97abd.dir/build.make:99: cmTC_97abd] Error 1
+gmake[1]: Leaving directory '/home/dareum/ME454/ros2_ws/build/four_bar_linkage/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_97abd/fast] Error 2
+
+
+

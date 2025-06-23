@@ -1,0 +1,6 @@
+{
+  "package_name": "coin_rolling_msg",
+  "non_idl_tuples": [
+    "/home/dareum/ME454/ros2_ws/src/coin_rolling_msg:msg/CoinRolling.msg"
+  ]
+}

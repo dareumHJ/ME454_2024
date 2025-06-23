@@ -1,0 +1,4 @@
+[0.187s] Invoking command in '/home/dareum/ME454/ros2_ws/build/lidar_basic': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dareum/ME454/ros2_ws/build/lidar_basic -- -j16 -l16
+[0.375s] [35m[1mConsolidate compiler generated dependencies of target lidar_process[0m
+[0.489s] [100%] Built target lidar_process
+[0.551s] Invoked command in '/home/dareum/ME454/ros2_ws/build/lidar_basic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dareum/ME454/ros2_ws/build/lidar_basic -- -j16 -l16

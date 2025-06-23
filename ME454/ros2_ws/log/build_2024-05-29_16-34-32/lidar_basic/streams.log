@@ -1,0 +1,22 @@
+[0.013s] Invoking command in '/home/dareum/ME454/ros2_ws/build/lidar_basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dareum/ME454/ros2_ws/build/lidar_basic -- -j16 -l16
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_process.dir/src/lidar_process.cpp.o[0m
+[5.327s] [01m[K/home/dareum/ME454/ros2_ws/src/lidar_basic/src/lidar_process.cpp:[m[K In member function ‘[01m[Kvoid LidarSubsciber::point_callback(sensor_msgs::msg::PointCloud_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.328s] [01m[K/home/dareum/ME454/ros2_ws/src/lidar_basic/src/lidar_process.cpp:72:31:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::normal_distribution<double>[m[K’ to ‘[01m[Kfloat[m[K’ in assignment
+[5.328s]    72 |         cloud_a->at(i_pc).x = [01;31m[Kdistribution[m[K;
+[5.328s]       |                               [01;31m[K^~~~~~~~~~~~[m[K
+[5.328s]       |                               [01;31m[K|[m[K
+[5.328s]       |                               [01;31m[Kstd::normal_distribution<double>[m[K
+[5.328s] [01m[K/home/dareum/ME454/ros2_ws/src/lidar_basic/src/lidar_process.cpp:73:31:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::normal_distribution<double>[m[K’ to ‘[01m[Kfloat[m[K’ in assignment
+[5.328s]    73 |         cloud_a->at(i_pc).y = [01;31m[Kdistribution[m[K;
+[5.328s]       |                               [01;31m[K^~~~~~~~~~~~[m[K
+[5.328s]       |                               [01;31m[K|[m[K
+[5.328s]       |                               [01;31m[Kstd::normal_distribution<double>[m[K
+[5.328s] [01m[K/home/dareum/ME454/ros2_ws/src/lidar_basic/src/lidar_process.cpp:74:31:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::normal_distribution<double>[m[K’ to ‘[01m[Kfloat[m[K’ in assignment
+[5.328s]    74 |         cloud_a->at(i_pc).z = [01;31m[Kdistribution[m[K;
+[5.328s]       |                               [01;31m[K^~~~~~~~~~~~[m[K
+[5.328s]       |                               [01;31m[K|[m[K
+[5.329s]       |                               [01;31m[Kstd::normal_distribution<double>[m[K
+[8.963s] gmake[2]: *** [CMakeFiles/lidar_process.dir/build.make:76: CMakeFiles/lidar_process.dir/src/lidar_process.cpp.o] Error 1
+[8.964s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_process.dir/all] Error 2
+[8.964s] gmake: *** [Makefile:146: all] Error 2
+[8.966s] Invoked command in '/home/dareum/ME454/ros2_ws/build/lidar_basic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dareum/ME454/ros2_ws/build/lidar_basic -- -j16 -l16

@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000373] (-) JobUnselected: {'identifier': 'cart_pole_cpp'}
+[0.000417] (cartpole) JobQueued: {'identifier': 'cartpole', 'dependencies': OrderedDict()}
+[0.000438] (cartpole) JobStarted: {'identifier': 'cartpole'}
+[0.010760] (cartpole) JobProgress: {'identifier': 'cartpole', 'progress': 'cmake'}
+[0.012504] (cartpole) JobProgress: {'identifier': 'cartpole', 'progress': 'build'}
+[0.013501] (cartpole) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dareum/ME454/cpp_ws/HW4/build/cartpole', '--', '-j16', '-l16'], 'cwd': '/home/dareum/ME454/cpp_ws/HW4/build/cartpole', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dareum'), ('GIT_ASKPASS', '/home/dareum/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dareum/.mujoco/mujoco210/bin'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/dareum'), ('OLDPWD', '/home/dareum/ME454/cpp_ws/HW4/cpp/build'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('NVM_BIN', '/home/dareum/.nvm/versions/node/v20.12.2/bin'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-a8b73ecd-75c8-40ba-b36d-4d4f80858ae2.sock'), ('NVM_INC', '/home/dareum/.nvm/versions/node/v20.12.2/include/node'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dareum/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dareum/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/dareum/.nvm'), ('COLCON_PREFIX_PATH', '/home/dareum/ME454/cpp_ws/HW4/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dareum'), ('NAME', 'DAREUM'), ('WSL_INTEROP', '/run/WSL/23229_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dareum/.mujoco/mujoco210/bin:/home/dareum/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/home/dareum/.nvm/versions/node/v20.12.2/bin:/opt/ros/humble/bin::/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/gnuplot/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/dareu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/dareu/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/dareum/.dotnet/tools:/home/dareum/.local/share/coursier/bin'), ('DISPLAY', '172.31.48.1:0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/dareum/.cache/dotnet_bundle_extract'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-3c5449984f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/dareum/ME454/cpp_ws/HW4/install/cartpole:/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/dareum/ME454/cpp_ws/HW4/build/cartpole'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/dareum/ME454/cpp_ws/HW4/install/cartpole:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.067585] (cartpole) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pid_publisher_subscriber_node\x1b[0m\n'}
+[0.089209] (cartpole) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pid_publisher_subscriber_node.dir/src/pid_publisher_subscriber_node.cpp.o\x1b[0m\n'}
+[0.098880] (-) TimerEvent: {}
+[0.199366] (-) TimerEvent: {}
+[0.299856] (-) TimerEvent: {}
+[0.400329] (-) TimerEvent: {}
+[0.500760] (-) TimerEvent: {}
+[0.601292] (-) TimerEvent: {}
+[0.701708] (-) TimerEvent: {}
+[0.802178] (-) TimerEvent: {}
+[0.902631] (-) TimerEvent: {}
+[1.003141] (-) TimerEvent: {}
+[1.103738] (-) TimerEvent: {}
+[1.204311] (-) TimerEvent: {}
+[1.304794] (-) TimerEvent: {}
+[1.405324] (-) TimerEvent: {}
+[1.505762] (-) TimerEvent: {}
+[1.606782] (-) TimerEvent: {}
+[1.707292] (-) TimerEvent: {}
+[1.807752] (-) TimerEvent: {}
+[1.908220] (-) TimerEvent: {}
+[2.008682] (-) TimerEvent: {}
+[2.109165] (-) TimerEvent: {}
+[2.209625] (-) TimerEvent: {}
+[2.310121] (-) TimerEvent: {}
+[2.410622] (-) TimerEvent: {}
+[2.511095] (-) TimerEvent: {}
+[2.611638] (-) TimerEvent: {}
+[2.712172] (-) TimerEvent: {}
+[2.812673] (-) TimerEvent: {}
+[2.913180] (-) TimerEvent: {}
+[3.013613] (-) TimerEvent: {}
+[3.121792] (-) TimerEvent: {}
+[3.222266] (-) TimerEvent: {}
+[3.322761] (-) TimerEvent: {}
+[3.423345] (-) TimerEvent: {}
+[3.523852] (-) TimerEvent: {}
+[3.624360] (-) TimerEvent: {}
+[3.724951] (-) TimerEvent: {}
+[3.825478] (-) TimerEvent: {}
+[3.925929] (-) TimerEvent: {}
+[4.026386] (-) TimerEvent: {}
+[4.127152] (-) TimerEvent: {}
+[4.227671] (-) TimerEvent: {}
+[4.328198] (-) TimerEvent: {}
+[4.428700] (-) TimerEvent: {}
+[4.529214] (-) TimerEvent: {}
+[4.629693] (-) TimerEvent: {}
+[4.730390] (-) TimerEvent: {}
+[4.831656] (-) TimerEvent: {}
+[4.932302] (-) TimerEvent: {}
+[5.032824] (-) TimerEvent: {}
+[5.133499] (-) TimerEvent: {}
+[5.234118] (-) TimerEvent: {}
+[5.334686] (-) TimerEvent: {}
+[5.435287] (-) TimerEvent: {}
+[5.535817] (-) TimerEvent: {}
+[5.636552] (-) TimerEvent: {}
+[5.737084] (-) TimerEvent: {}
+[5.837552] (-) TimerEvent: {}
+[5.938130] (-) TimerEvent: {}
+[6.039139] (-) TimerEvent: {}
+[6.140101] (-) TimerEvent: {}
+[6.240671] (-) TimerEvent: {}
+[6.341149] (-) TimerEvent: {}
+[6.441838] (-) TimerEvent: {}
+[6.542526] (-) TimerEvent: {}
+[6.643084] (-) TimerEvent: {}
+[6.743598] (-) TimerEvent: {}
+[6.844306] (-) TimerEvent: {}
+[6.944950] (-) TimerEvent: {}
+[7.045536] (-) TimerEvent: {}
+[7.146176] (-) TimerEvent: {}
+[7.246790] (-) TimerEvent: {}
+[7.346155] (cartpole) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pid_publisher_subscriber_node\x1b[0m\n'}
+[7.346885] (-) TimerEvent: {}
+[7.447243] (-) TimerEvent: {}
+[7.547726] (-) TimerEvent: {}
+[7.648391] (-) TimerEvent: {}
+[7.749227] (-) TimerEvent: {}
+[7.831727] (cartpole) StdoutLine: {'line': b'[100%] Built target pid_publisher_subscriber_node\n'}
+[7.841623] (cartpole) CommandEnded: {'returncode': 0}
+[7.849358] (-) TimerEvent: {}
+[7.870819] (cartpole) JobProgress: {'identifier': 'cartpole', 'progress': 'install'}
+[7.878935] (cartpole) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dareum/ME454/cpp_ws/HW4/build/cartpole'], 'cwd': '/home/dareum/ME454/cpp_ws/HW4/build/cartpole', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dareum'), ('GIT_ASKPASS', '/home/dareum/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dareum/.mujoco/mujoco210/bin'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/dareum'), ('OLDPWD', '/home/dareum/ME454/cpp_ws/HW4/cpp/build'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('NVM_BIN', '/home/dareum/.nvm/versions/node/v20.12.2/bin'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-a8b73ecd-75c8-40ba-b36d-4d4f80858ae2.sock'), ('NVM_INC', '/home/dareum/.nvm/versions/node/v20.12.2/include/node'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dareum/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dareum/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/dareum/.nvm'), ('COLCON_PREFIX_PATH', '/home/dareum/ME454/cpp_ws/HW4/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dareum'), ('NAME', 'DAREUM'), ('WSL_INTEROP', '/run/WSL/23229_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dareum/.mujoco/mujoco210/bin:/home/dareum/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/home/dareum/.nvm/versions/node/v20.12.2/bin:/opt/ros/humble/bin::/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/gnuplot/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/dareu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/dareu/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/dareum/.dotnet/tools:/home/dareum/.local/share/coursier/bin'), ('DISPLAY', '172.31.48.1:0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/dareum/.cache/dotnet_bundle_extract'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-3c5449984f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/dareum/ME454/cpp_ws/HW4/install/cartpole:/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/dareum/ME454/cpp_ws/HW4/build/cartpole'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/dareum/ME454/cpp_ws/HW4/install/cartpole:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[7.885191] (cartpole) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.885545] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/launch\n'}
+[7.885648] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/launch/cartpolePID.launch.py\n'}
+[7.885722] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/rsc\n'}
+[7.885781] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/rsc/urdf\n'}
+[7.885836] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/rsc/urdf/cartpoleeffort.urdf\n'}
+[7.885971] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/worlds\n'}
+[7.886069] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/worlds/cartpole.world\n'}
+[7.886133] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/config\n'}
+[7.886187] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/config/cartpoleeffort.yaml\n'}
+[7.886395] (cartpole) StdoutLine: {'line': b'-- Installing: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/lib/cartpole/pid_publisher_subscriber_node\n'}
+[7.889079] (cartpole) StdoutLine: {'line': b'-- Set runtime path of "/home/dareum/ME454/cpp_ws/HW4/install/cartpole/lib/cartpole/pid_publisher_subscriber_node" to ""\n'}
+[7.889496] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/ament_index/resource_index/package_run_dependencies/cartpole\n'}
+[7.889781] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/ament_index/resource_index/parent_prefix_path/cartpole\n'}
+[7.890059] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/environment/ament_prefix_path.sh\n'}
+[7.890406] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/environment/ament_prefix_path.dsv\n'}
+[7.890457] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/environment/path.sh\n'}
+[7.890493] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/environment/path.dsv\n'}
+[7.890524] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/local_setup.bash\n'}
+[7.890555] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/local_setup.sh\n'}
+[7.890586] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/local_setup.zsh\n'}
+[7.890615] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/local_setup.dsv\n'}
+[7.890643] (cartpole) StdoutLine: {'line': b'-- Installing: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/package.dsv\n'}
+[7.890670] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/ament_index/resource_index/packages/cartpole\n'}
+[7.890751] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/cmake/cartpoleConfig.cmake\n'}
+[7.890793] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/cmake/cartpoleConfig-version.cmake\n'}
+[7.890825] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/cpp_ws/HW4/install/cartpole/share/cartpole/package.xml\n'}
+[7.892096] (cartpole) CommandEnded: {'returncode': 0}
+[7.937483] (cartpole) JobEnded: {'identifier': 'cartpole', 'rc': 0}
+[7.938591] (-) EventReactorShutdown: {}

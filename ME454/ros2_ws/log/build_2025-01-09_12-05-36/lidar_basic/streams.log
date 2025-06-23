@@ -1,0 +1,30 @@
+[0.194s] Invoking command in '/home/dareum/ME454/ros2_ws/build/lidar_basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dareum/ME454/ros2_ws/build/lidar_basic -- -j16 -l16
+[0.439s] [100%] Built target lidar_process
+[0.499s] Invoked command in '/home/dareum/ME454/ros2_ws/build/lidar_basic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dareum/ME454/ros2_ws/build/lidar_basic -- -j16 -l16
+[0.720s] Invoking command in '/home/dareum/ME454/ros2_ws/build/lidar_basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/dareum/ME454/ros2_ws/build/lidar_basic
+[0.792s] -- Install configuration: ""
+[0.792s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/launch
+[0.792s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/launch/lidar_world.launch.py
+[0.792s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/rsc
+[0.792s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/rsc/sdf
+[0.792s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/rsc/sdf/room.sdf
+[0.792s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/rsc/sdf/lidar_car_sample.sdf
+[0.792s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/worlds
+[0.792s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/worlds/lidar_basic.world
+[0.793s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/lib/lidar_basic/lidar_process
+[0.793s] -- Set runtime path of "/home/dareum/ME454/ros2_ws/install/lidar_basic/lib/lidar_basic/lidar_process" to ""
+[0.793s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/ament_index/resource_index/package_run_dependencies/lidar_basic
+[0.793s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/ament_index/resource_index/parent_prefix_path/lidar_basic
+[0.793s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/environment/ament_prefix_path.sh
+[0.793s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/environment/ament_prefix_path.dsv
+[0.793s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/environment/path.sh
+[0.793s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/environment/path.dsv
+[0.793s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/local_setup.bash
+[0.793s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/local_setup.sh
+[0.793s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/local_setup.zsh
+[0.793s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/local_setup.dsv
+[0.793s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/package.dsv
+[0.793s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/ament_index/resource_index/packages/lidar_basic
+[0.793s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/cmake/lidar_basicConfig.cmake
+[0.793s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/cmake/lidar_basicConfig-version.cmake
+[0.794s] -- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/package.xml

@@ -1,0 +1,1 @@
+Invoking command in '/home/dareum/ME454/ros2_ws/build/coin_rolling_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/coin_rolling_msg -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/coin_rolling_msg

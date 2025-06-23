@@ -1,0 +1,22 @@
+[0.378s] Invoking command in '/home/dareum/ME454/ros2_ws/build/vibration': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/vibration -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/vibration
+[0.699s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.748s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.749s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.787s] Traceback (most recent call last):
+[0.787s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.787s]     from catkin_pkg.package import parse_package_string
+[0.787s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.796s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.796s]   execute_process(/home/dareum/anaconda3/envs/mujoco_py/bin/python3
+[0.796s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.796s]   /home/dareum/ME454/ros2_ws/src/vibration/package.xml
+[0.796s]   /home/dareum/ME454/ros2_ws/build/vibration/ament_cmake_core/package.cmake)
+[0.796s]   returned error code 1
+[0.796s] Call Stack (most recent call first):
+[0.796s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.796s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.796s]   CMakeLists.txt:41 (ament_lint_auto_find_test_dependencies)
+[0.796s] 
+[0.796s] [0m
+[0.796s] -- Configuring incomplete, errors occurred!
+[0.796s] See also "/home/dareum/ME454/ros2_ws/build/vibration/CMakeFiles/CMakeOutput.log".

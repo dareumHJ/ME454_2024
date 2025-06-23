@@ -1,0 +1,2 @@
+Invoking command in '/home/dareum/ME454/ros2_ws/build/bowling': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(mujoco_py) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/bowling -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/bowling
+Invoked command in '/home/dareum/ME454/ros2_ws/build/bowling' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(mujoco_py) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/bowling -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/bowling

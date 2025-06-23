@@ -1,0 +1,21 @@
+[0.185s] Invoking command in '/home/dareum/ME454/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/my_package
+[0.546s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.610s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.686s] Traceback (most recent call last):
+[0.687s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.687s]     from catkin_pkg.package import parse_package_string
+[0.687s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.708s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.708s]   execute_process(/home/dareum/anaconda3/envs/mujoco_py/bin/python3
+[0.708s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.708s]   /home/dareum/ME454/ros2_ws/src/my_package/package.xml
+[0.708s]   /home/dareum/ME454/ros2_ws/build/my_package/ament_cmake_core/package.cmake)
+[0.708s]   returned error code 1
+[0.708s] Call Stack (most recent call first):
+[0.709s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.709s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.709s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[0.709s] 
+[0.709s] [0m
+[0.709s] -- Configuring incomplete, errors occurred!
+[0.709s] See also "/home/dareum/ME454/ros2_ws/build/my_package/CMakeFiles/CMakeOutput.log".

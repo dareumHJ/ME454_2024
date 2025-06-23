@@ -1,0 +1,193 @@
+[0.000000] (-) TimerEvent: {}
+[0.000474] (-) JobUnselected: {'identifier': 'ball_throwing'}
+[0.000787] (-) JobUnselected: {'identifier': 'bowling'}
+[0.001016] (-) JobUnselected: {'identifier': 'cartpole'}
+[0.001214] (-) JobUnselected: {'identifier': 'coin_rolling'}
+[0.001479] (-) JobUnselected: {'identifier': 'coin_rolling_msg'}
+[0.001575] (-) JobUnselected: {'identifier': 'crankshaft'}
+[0.001666] (-) JobUnselected: {'identifier': 'four_bar_linkage'}
+[0.001806] (-) JobUnselected: {'identifier': 'friction_test'}
+[0.002018] (-) JobUnselected: {'identifier': 'gauss_summation'}
+[0.002112] (-) JobUnselected: {'identifier': 'gazebo_ros2_control_demos'}
+[0.002190] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002243] (-) JobUnselected: {'identifier': 'pendulum_movement'}
+[0.002277] (-) JobUnselected: {'identifier': 'tricycle'}
+[0.002311] (-) JobUnselected: {'identifier': 'vibration'}
+[0.002346] (lidar_basic) JobQueued: {'identifier': 'lidar_basic', 'dependencies': OrderedDict()}
+[0.002383] (lidar_basic) JobStarted: {'identifier': 'lidar_basic'}
+[0.011944] (lidar_basic) JobProgress: {'identifier': 'lidar_basic', 'progress': 'cmake'}
+[0.012721] (lidar_basic) JobProgress: {'identifier': 'lidar_basic', 'progress': 'build'}
+[0.013285] (lidar_basic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dareum/ME454/ros2_ws/build/lidar_basic', '--', '-j16', '-l16'], 'cwd': '/home/dareum/ME454/ros2_ws/build/lidar_basic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dareum'), ('GIT_ASKPASS', '/home/dareum/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dareum/.mujoco/mujoco210/bin:/usr/local/lib'), ('HOME', '/home/dareum'), ('OLDPWD', '/home/dareum/ME454/repos/ME454_2024'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('NVM_BIN', '/home/dareum/.nvm/versions/node/v20.12.2/bin'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-659f10d7-5ea4-424a-b084-9c5feb1be319.sock'), ('NVM_INC', '/home/dareum/.nvm/versions/node/v20.12.2/include/node'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dareum/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dareum/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/dareum/.nvm'), ('COLCON_PREFIX_PATH', '/home/dareum/ME454/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dareum'), ('NAME', 'DAREUM'), ('WSL_INTEROP', '/run/WSL/12_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dareum/.mujoco/mujoco210/bin:/home/dareum/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/home/dareum/.nvm/versions/node/v20.12.2/bin:/opt/ros/humble/bin::/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/gnuplot/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/dareu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/dareu/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/dareum/.dotnet/tools:/home/dareum/.local/share/coursier/bin'), ('DISPLAY', '172.18.16.1:0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/dareum/.cache/dotnet_bundle_extract'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-3c5449984f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/dareum/ME454/ros2_ws/install/lidar_basic:/home/dareum/ME454/ros2_ws/install/cartpole:/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/dareum/ME454/ros2_ws/build/lidar_basic'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/dareum/ME454/ros2_ws/install/lidar_basic:/home/dareum/ME454/ros2_ws/install/cartpole:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.054660] (lidar_basic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_process\x1b[0m\n'}
+[0.079496] (lidar_basic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lidar_process.dir/src/lidar_process.cpp.o\x1b[0m\n'}
+[0.099593] (-) TimerEvent: {}
+[0.200008] (-) TimerEvent: {}
+[0.300669] (-) TimerEvent: {}
+[0.401372] (-) TimerEvent: {}
+[0.501945] (-) TimerEvent: {}
+[0.603009] (-) TimerEvent: {}
+[0.703538] (-) TimerEvent: {}
+[0.804090] (-) TimerEvent: {}
+[0.904562] (-) TimerEvent: {}
+[1.005056] (-) TimerEvent: {}
+[1.105671] (-) TimerEvent: {}
+[1.206283] (-) TimerEvent: {}
+[1.306914] (-) TimerEvent: {}
+[1.407485] (-) TimerEvent: {}
+[1.508020] (-) TimerEvent: {}
+[1.608620] (-) TimerEvent: {}
+[1.709353] (-) TimerEvent: {}
+[1.810063] (-) TimerEvent: {}
+[1.910713] (-) TimerEvent: {}
+[2.011271] (-) TimerEvent: {}
+[2.111849] (-) TimerEvent: {}
+[2.212445] (-) TimerEvent: {}
+[2.313119] (-) TimerEvent: {}
+[2.413842] (-) TimerEvent: {}
+[2.514755] (-) TimerEvent: {}
+[2.615493] (-) TimerEvent: {}
+[2.716166] (-) TimerEvent: {}
+[2.816646] (-) TimerEvent: {}
+[2.917237] (-) TimerEvent: {}
+[3.017791] (-) TimerEvent: {}
+[3.118220] (-) TimerEvent: {}
+[3.218798] (-) TimerEvent: {}
+[3.319378] (-) TimerEvent: {}
+[3.419905] (-) TimerEvent: {}
+[3.520346] (-) TimerEvent: {}
+[3.620821] (-) TimerEvent: {}
+[3.721330] (-) TimerEvent: {}
+[3.821862] (-) TimerEvent: {}
+[3.922542] (-) TimerEvent: {}
+[4.023077] (-) TimerEvent: {}
+[4.123785] (-) TimerEvent: {}
+[4.224342] (-) TimerEvent: {}
+[4.324856] (-) TimerEvent: {}
+[4.425347] (-) TimerEvent: {}
+[4.525832] (-) TimerEvent: {}
+[4.626355] (-) TimerEvent: {}
+[4.726838] (-) TimerEvent: {}
+[4.827335] (-) TimerEvent: {}
+[4.927852] (-) TimerEvent: {}
+[5.028323] (-) TimerEvent: {}
+[5.128812] (-) TimerEvent: {}
+[5.229317] (-) TimerEvent: {}
+[5.329844] (-) TimerEvent: {}
+[5.430332] (-) TimerEvent: {}
+[5.531033] (-) TimerEvent: {}
+[5.631655] (-) TimerEvent: {}
+[5.732307] (-) TimerEvent: {}
+[5.832838] (-) TimerEvent: {}
+[5.933377] (-) TimerEvent: {}
+[6.033865] (-) TimerEvent: {}
+[6.134308] (-) TimerEvent: {}
+[6.234722] (-) TimerEvent: {}
+[6.335267] (-) TimerEvent: {}
+[6.435766] (-) TimerEvent: {}
+[6.536266] (-) TimerEvent: {}
+[6.636784] (-) TimerEvent: {}
+[6.737349] (-) TimerEvent: {}
+[6.838069] (-) TimerEvent: {}
+[6.938732] (-) TimerEvent: {}
+[7.039194] (-) TimerEvent: {}
+[7.139698] (-) TimerEvent: {}
+[7.240177] (-) TimerEvent: {}
+[7.340661] (-) TimerEvent: {}
+[7.441128] (-) TimerEvent: {}
+[7.541549] (-) TimerEvent: {}
+[7.642143] (-) TimerEvent: {}
+[7.742655] (-) TimerEvent: {}
+[7.843279] (-) TimerEvent: {}
+[7.943771] (-) TimerEvent: {}
+[8.044258] (-) TimerEvent: {}
+[8.144798] (-) TimerEvent: {}
+[8.245372] (-) TimerEvent: {}
+[8.345826] (-) TimerEvent: {}
+[8.446250] (-) TimerEvent: {}
+[8.546813] (-) TimerEvent: {}
+[8.647459] (-) TimerEvent: {}
+[8.748180] (-) TimerEvent: {}
+[8.848779] (-) TimerEvent: {}
+[8.949295] (-) TimerEvent: {}
+[9.049878] (-) TimerEvent: {}
+[9.150394] (-) TimerEvent: {}
+[9.250985] (-) TimerEvent: {}
+[9.351641] (-) TimerEvent: {}
+[9.452223] (-) TimerEvent: {}
+[9.552748] (-) TimerEvent: {}
+[9.653370] (-) TimerEvent: {}
+[9.754212] (-) TimerEvent: {}
+[9.854778] (-) TimerEvent: {}
+[9.955515] (-) TimerEvent: {}
+[10.055948] (-) TimerEvent: {}
+[10.156441] (-) TimerEvent: {}
+[10.256963] (-) TimerEvent: {}
+[10.357565] (-) TimerEvent: {}
+[10.457951] (-) TimerEvent: {}
+[10.558439] (-) TimerEvent: {}
+[10.659006] (-) TimerEvent: {}
+[10.759495] (-) TimerEvent: {}
+[10.860121] (-) TimerEvent: {}
+[10.960654] (-) TimerEvent: {}
+[11.061140] (-) TimerEvent: {}
+[11.161554] (-) TimerEvent: {}
+[11.261933] (-) TimerEvent: {}
+[11.362467] (-) TimerEvent: {}
+[11.462955] (-) TimerEvent: {}
+[11.563407] (-) TimerEvent: {}
+[11.663847] (-) TimerEvent: {}
+[11.764332] (-) TimerEvent: {}
+[11.864843] (-) TimerEvent: {}
+[11.965284] (-) TimerEvent: {}
+[12.065805] (-) TimerEvent: {}
+[12.166423] (-) TimerEvent: {}
+[12.266941] (-) TimerEvent: {}
+[12.367462] (-) TimerEvent: {}
+[12.467991] (-) TimerEvent: {}
+[12.568551] (-) TimerEvent: {}
+[12.629544] (lidar_basic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lidar_process\x1b[0m\n'}
+[12.668764] (-) TimerEvent: {}
+[12.769351] (-) TimerEvent: {}
+[12.869925] (-) TimerEvent: {}
+[12.970500] (-) TimerEvent: {}
+[13.071206] (-) TimerEvent: {}
+[13.172076] (-) TimerEvent: {}
+[13.272858] (-) TimerEvent: {}
+[13.373503] (-) TimerEvent: {}
+[13.474057] (-) TimerEvent: {}
+[13.574590] (-) TimerEvent: {}
+[13.675257] (-) TimerEvent: {}
+[13.731877] (lidar_basic) StdoutLine: {'line': b'[100%] Built target lidar_process\n'}
+[13.741165] (lidar_basic) CommandEnded: {'returncode': 0}
+[13.775702] (lidar_basic) JobProgress: {'identifier': 'lidar_basic', 'progress': 'install'}
+[13.776310] (-) TimerEvent: {}
+[13.783722] (lidar_basic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dareum/ME454/ros2_ws/build/lidar_basic'], 'cwd': '/home/dareum/ME454/ros2_ws/build/lidar_basic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dareum'), ('GIT_ASKPASS', '/home/dareum/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dareum/.mujoco/mujoco210/bin:/usr/local/lib'), ('HOME', '/home/dareum'), ('OLDPWD', '/home/dareum/ME454/repos/ME454_2024'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('NVM_BIN', '/home/dareum/.nvm/versions/node/v20.12.2/bin'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-659f10d7-5ea4-424a-b084-9c5feb1be319.sock'), ('NVM_INC', '/home/dareum/.nvm/versions/node/v20.12.2/include/node'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dareum/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dareum/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/dareum/.nvm'), ('COLCON_PREFIX_PATH', '/home/dareum/ME454/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dareum'), ('NAME', 'DAREUM'), ('WSL_INTEROP', '/run/WSL/12_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dareum/.mujoco/mujoco210/bin:/home/dareum/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/home/dareum/.nvm/versions/node/v20.12.2/bin:/opt/ros/humble/bin::/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/gnuplot/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/dareu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/dareu/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/dareum/.dotnet/tools:/home/dareum/.local/share/coursier/bin'), ('DISPLAY', '172.18.16.1:0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/dareum/.cache/dotnet_bundle_extract'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-3c5449984f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/dareum/ME454/ros2_ws/install/lidar_basic:/home/dareum/ME454/ros2_ws/install/cartpole:/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/dareum/ME454/ros2_ws/build/lidar_basic'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/dareum/ME454/ros2_ws/install/lidar_basic:/home/dareum/ME454/ros2_ws/install/cartpole:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[13.790741] (lidar_basic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.791039] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/launch\n'}
+[13.791117] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/launch/lidar_world.launch.py\n'}
+[13.791179] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/rsc\n'}
+[13.791237] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/rsc/sdf\n'}
+[13.791289] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/rsc/sdf/room.sdf\n'}
+[13.791396] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/rsc/sdf/lidar_car_sample.sdf\n'}
+[13.791480] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/worlds\n'}
+[13.791542] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/worlds/lidar_basic.world\n'}
+[13.791599] (lidar_basic) StdoutLine: {'line': b'-- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/lib/lidar_basic/lidar_process\n'}
+[13.795539] (lidar_basic) StdoutLine: {'line': b'-- Set runtime path of "/home/dareum/ME454/ros2_ws/install/lidar_basic/lib/lidar_basic/lidar_process" to ""\n'}
+[13.796132] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/ament_index/resource_index/package_run_dependencies/lidar_basic\n'}
+[13.796320] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/ament_index/resource_index/parent_prefix_path/lidar_basic\n'}
+[13.796398] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/environment/ament_prefix_path.sh\n'}
+[13.796462] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/environment/ament_prefix_path.dsv\n'}
+[13.796517] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/environment/path.sh\n'}
+[13.796569] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/environment/path.dsv\n'}
+[13.796619] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/local_setup.bash\n'}
+[13.796678] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/local_setup.sh\n'}
+[13.796716] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/local_setup.zsh\n'}
+[13.796740] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/local_setup.dsv\n'}
+[13.796763] (lidar_basic) StdoutLine: {'line': b'-- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/package.dsv\n'}
+[13.796787] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/ament_index/resource_index/packages/lidar_basic\n'}
+[13.796813] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/cmake/lidar_basicConfig.cmake\n'}
+[13.796838] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/cmake/lidar_basicConfig-version.cmake\n'}
+[13.796864] (lidar_basic) StdoutLine: {'line': b'-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/package.xml\n'}
+[13.798747] (lidar_basic) CommandEnded: {'returncode': 0}
+[13.844041] (lidar_basic) JobEnded: {'identifier': 'lidar_basic', 'rc': 0}
+[13.845319] (-) EventReactorShutdown: {}

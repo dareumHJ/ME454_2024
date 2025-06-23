@@ -1,0 +1,1 @@
+Invoking command in '/home/dareum/ME454/ros2_ws/build/four_bar_linkage': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(mujoco_py) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/four_bar_linkage -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/four_bar_linkage

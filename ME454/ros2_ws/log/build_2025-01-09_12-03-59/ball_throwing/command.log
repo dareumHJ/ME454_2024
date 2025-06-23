@@ -1,0 +1,2 @@
+Invoking command in '/home/dareum/ME454/ros2_ws/build/ball_throwing': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(mujoco_py) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/ball_throwing -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/ball_throwing
+Invoked command in '/home/dareum/ME454/ros2_ws/build/ball_throwing' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(mujoco_py) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/ball_throwing -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/ball_throwing

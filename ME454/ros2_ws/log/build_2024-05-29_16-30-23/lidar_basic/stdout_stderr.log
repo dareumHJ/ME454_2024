@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target lidar_process[0m
+[100%] Built target lidar_process
+-- Install configuration: ""
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/launch
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/launch/lidar_world.launch.py
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/rsc
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/rsc/sdf
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/rsc/sdf/room.sdf
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/rsc/sdf/lidar_car_sample.sdf
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/worlds
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/worlds/lidar_basic.world
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/lib/lidar_basic/lidar_process
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/ament_index/resource_index/package_run_dependencies/lidar_basic
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/ament_index/resource_index/parent_prefix_path/lidar_basic
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/environment/path.sh
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/environment/path.dsv
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/local_setup.bash
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/local_setup.sh
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/local_setup.zsh
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/local_setup.dsv
+-- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/package.dsv
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/ament_index/resource_index/packages/lidar_basic
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/cmake/lidar_basicConfig.cmake
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/cmake/lidar_basicConfig-version.cmake
+-- Up-to-date: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/package.xml

@@ -1,0 +1,32 @@
+[0.207s] Invoking command in '/home/dareum/ME454/ros2_ws/build/friction_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/friction_test -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/friction_test
+[0.303s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.674s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.876s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.879s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.887s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.898s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.916s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.969s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.971s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.107s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.267s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[5.466s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.490s] Traceback (most recent call last):
+[5.490s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[5.490s]     from catkin_pkg.package import parse_package_string
+[5.491s] ModuleNotFoundError: No module named 'catkin_pkg'
+[5.494s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[5.494s]   execute_process(/home/dareum/anaconda3/envs/mujoco_py/bin/python3
+[5.494s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[5.494s]   /home/dareum/ME454/ros2_ws/src/friction_test/package.xml
+[5.494s]   /home/dareum/ME454/ros2_ws/build/friction_test/ament_cmake_core/package.cmake)
+[5.494s]   returned error code 1
+[5.494s] Call Stack (most recent call first):
+[5.494s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[5.495s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[5.495s]   CMakeLists.txt:44 (ament_lint_auto_find_test_dependencies)
+[5.495s] 
+[5.495s] [0m
+[5.495s] -- Configuring incomplete, errors occurred!
+[5.495s] See also "/home/dareum/ME454/ros2_ws/build/friction_test/CMakeFiles/CMakeOutput.log".
+[5.495s] See also "/home/dareum/ME454/ros2_ws/build/friction_test/CMakeFiles/CMakeError.log".

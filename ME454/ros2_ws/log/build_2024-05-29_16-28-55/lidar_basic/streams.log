@@ -1,0 +1,174 @@
+[0.013s] Invoking command in '/home/dareum/ME454/ros2_ws/build/lidar_basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/lidar_basic -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/lidar_basic
+[0.161s] -- The C compiler identification is GNU 11.4.0
+[0.728s] -- The CXX compiler identification is GNU 11.4.0
+[1.129s] -- Detecting C compiler ABI info
+[1.292s] -- Detecting C compiler ABI info - done
+[1.296s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.297s] -- Detecting C compile features
+[1.298s] -- Detecting C compile features - done
+[1.300s] -- Detecting CXX compiler ABI info
+[1.465s] -- Detecting CXX compiler ABI info - done
+[1.469s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.469s] -- Detecting CXX compile features
+[1.469s] -- Detecting CXX compile features - done
+[1.471s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.583s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.645s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.824s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.828s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.836s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.850s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.862s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.908s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.910s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.505s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.190s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.339s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.355s] -- Looking for pthread.h
+[8.509s] -- Looking for pthread.h - found
+[8.509s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.649s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.649s] -- Found Threads: TRUE  
+[8.744s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[8.912s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.987s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system iostreams filesystem serialization 
+[10.486s] -- Checking for module 'flann'
+[10.501s] --   Found flann, version 1.9.1
+[10.939s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[10.939s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[11.429s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[11.429s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[11.485s] -- Checking for module 'libusb-1.0'
+[11.500s] --   Found libusb-1.0, version 1.0.25
+[11.630s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[11.631s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[11.631s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.869s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[11.869s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.013s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[12.013s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[13.070s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[14.616s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[14.646s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[14.747s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[14.969s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[14.969s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[14.971s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[16.203s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[17.689s] -- Found X11: /usr/include   
+[17.689s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[17.846s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[17.846s] -- Looking for gethostbyname
+[17.985s] -- Looking for gethostbyname - found
+[17.985s] -- Looking for connect
+[18.133s] -- Looking for connect - found
+[18.133s] -- Looking for remove
+[18.285s] -- Looking for remove - found
+[18.285s] -- Looking for shmat
+[18.424s] -- Looking for shmat - found
+[18.425s] -- Looking for IceConnectionNumber in ICE
+[18.574s] -- Looking for IceConnectionNumber in ICE - found
+[19.718s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[19.719s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[19.721s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[19.722s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[19.893s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[20.072s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[20.075s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[20.078s] -- Found utf8cpp: /usr/include/utf8cpp  
+[20.111s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[20.117s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[24.464s] -- Found Qhull version 8.0.2
+[28.885s] -- looking for PCL_COMMON
+[28.886s] -- Found PCL_COMMON: /usr/local/lib/libpcl_common.so  
+[28.886s] -- looking for PCL_KDTREE
+[28.886s] -- Found PCL_KDTREE: /usr/local/lib/libpcl_kdtree.so  
+[28.886s] -- looking for PCL_OCTREE
+[28.886s] -- Found PCL_OCTREE: /usr/local/lib/libpcl_octree.so  
+[28.887s] -- looking for PCL_SEARCH
+[28.887s] -- Found PCL_SEARCH: /usr/local/lib/libpcl_search.so  
+[28.887s] -- looking for PCL_SAMPLE_CONSENSUS
+[28.887s] -- Found PCL_SAMPLE_CONSENSUS: /usr/local/lib/libpcl_sample_consensus.so  
+[28.887s] -- looking for PCL_FILTERS
+[28.887s] -- Found PCL_FILTERS: /usr/local/lib/libpcl_filters.so  
+[28.888s] -- looking for PCL_2D
+[28.888s] -- Found PCL_2D: /usr/local/include/pcl-1.14  
+[28.888s] -- looking for PCL_GEOMETRY
+[28.888s] -- Found PCL_GEOMETRY: /usr/local/include/pcl-1.14  
+[28.888s] -- looking for PCL_IO
+[28.888s] -- Found PCL_IO: /usr/local/lib/libpcl_io.so  
+[28.888s] -- looking for PCL_FEATURES
+[28.889s] -- Found PCL_FEATURES: /usr/local/lib/libpcl_features.so  
+[28.889s] -- looking for PCL_ML
+[28.889s] -- Found PCL_ML: /usr/local/lib/libpcl_ml.so  
+[28.889s] -- looking for PCL_SEGMENTATION
+[28.889s] -- Found PCL_SEGMENTATION: /usr/local/lib/libpcl_segmentation.so  
+[28.890s] -- looking for PCL_VISUALIZATION
+[28.890s] -- Found PCL_VISUALIZATION: /usr/local/lib/libpcl_visualization.so  
+[28.890s] -- looking for PCL_SURFACE
+[28.890s] -- Found PCL_SURFACE: /usr/local/lib/libpcl_surface.so  
+[28.890s] -- looking for PCL_REGISTRATION
+[28.891s] -- Found PCL_REGISTRATION: /usr/local/lib/libpcl_registration.so  
+[28.891s] -- looking for PCL_KEYPOINTS
+[28.891s] -- Found PCL_KEYPOINTS: /usr/local/lib/libpcl_keypoints.so  
+[28.891s] -- looking for PCL_TRACKING
+[28.891s] -- Found PCL_TRACKING: /usr/local/lib/libpcl_tracking.so  
+[28.891s] -- looking for PCL_RECOGNITION
+[28.892s] -- Found PCL_RECOGNITION: /usr/local/lib/libpcl_recognition.so  
+[28.892s] -- looking for PCL_STEREO
+[28.892s] -- Found PCL_STEREO: /usr/local/lib/libpcl_stereo.so  
+[28.892s] -- looking for PCL_OUTOFCORE
+[28.892s] -- Found PCL_OUTOFCORE: /usr/local/lib/libpcl_outofcore.so  
+[28.893s] -- looking for PCL_PEOPLE
+[28.893s] -- Found PCL_PEOPLE: /usr/local/lib/libpcl_people.so  
+[28.894s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_outofcore;pcl_people;Boost::system;Boost::iostreams;Boost::filesystem;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.14") 
+[28.897s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[28.947s] -- Added test 'copyright' to check source files copyright and LICENSE
+[28.949s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[28.949s] -- Configured cppcheck include dirs: 
+[28.949s] -- Configured cppcheck exclude dirs and/or files: 
+[28.949s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[28.949s] -- Configured cpplint exclude dirs and/or files: 
+[28.950s] -- Added test 'flake8' to check Python code syntax and style conventions
+[28.950s] -- Added test 'lint_cmake' to check CMake code style
+[28.951s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[28.951s] -- Added test 'uncrustify' to check C / C++ code style
+[28.951s] -- Configured uncrustify additional arguments: 
+[28.952s] -- Added test 'xmllint' to check XML markup files
+[28.953s] -- Configuring done
+[28.974s] -- Generating done
+[28.976s] -- Build files have been written to: /home/dareum/ME454/ros2_ws/build/lidar_basic
+[29.000s] Invoked command in '/home/dareum/ME454/ros2_ws/build/lidar_basic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/lidar_basic -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/lidar_basic
+[29.002s] Invoking command in '/home/dareum/ME454/ros2_ws/build/lidar_basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dareum/ME454/ros2_ws/build/lidar_basic -- -j16 -l16
+[29.046s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_process.dir/src/lidar_process.cpp.o[0m
+[41.687s] [100%] [32m[1mLinking CXX executable lidar_process[0m
+[42.945s] [100%] Built target lidar_process
+[42.957s] Invoked command in '/home/dareum/ME454/ros2_ws/build/lidar_basic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dareum/ME454/ros2_ws/build/lidar_basic -- -j16 -l16
+[43.003s] Invoking command in '/home/dareum/ME454/ros2_ws/build/lidar_basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dareum/ME454/ros2_ws/build/lidar_basic
+[43.008s] -- Install configuration: ""
+[43.009s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/launch
+[43.009s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/launch/lidar_world.launch.py
+[43.009s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/rsc
+[43.009s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/rsc/sdf
+[43.009s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/rsc/sdf/room.sdf
+[43.009s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/rsc/sdf/lidar_car_sample.sdf
+[43.010s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/worlds
+[43.010s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/worlds/lidar_basic.world
+[43.010s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/lib/lidar_basic/lidar_process
+[43.014s] -- Set runtime path of "/home/dareum/ME454/ros2_ws/install/lidar_basic/lib/lidar_basic/lidar_process" to ""
+[43.015s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/ament_index/resource_index/package_run_dependencies/lidar_basic
+[43.015s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/ament_index/resource_index/parent_prefix_path/lidar_basic
+[43.015s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/environment/ament_prefix_path.sh
+[43.016s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/environment/ament_prefix_path.dsv
+[43.016s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/environment/path.sh
+[43.016s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/environment/path.dsv
+[43.016s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/local_setup.bash
+[43.016s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/local_setup.sh
+[43.016s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/local_setup.zsh
+[43.016s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/local_setup.dsv
+[43.016s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/package.dsv
+[43.016s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/ament_index/resource_index/packages/lidar_basic
+[43.016s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/cmake/lidar_basicConfig.cmake
+[43.017s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/cmake/lidar_basicConfig-version.cmake
+[43.017s] -- Installing: /home/dareum/ME454/ros2_ws/install/lidar_basic/share/lidar_basic/package.xml
+[43.019s] Invoked command in '/home/dareum/ME454/ros2_ws/build/lidar_basic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dareum/ME454/ros2_ws/build/lidar_basic

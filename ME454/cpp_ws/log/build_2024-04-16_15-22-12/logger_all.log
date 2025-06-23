@@ -1,0 +1,215 @@
+[0.803s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'midterm_2024']
+[0.803s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['midterm_2024'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f809dc40430>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f809dbaed70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f809dbaed70>>)
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.841s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dareum/ME454/cpp_ws'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice1) by extensions ['ignore', 'ignore_ament_install']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice1) by extension 'ignore'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice1) by extension 'ignore_ament_install'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice1) by extensions ['colcon_pkg']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice1) by extension 'colcon_pkg'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice1) by extensions ['colcon_meta']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice1) by extension 'colcon_meta'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice1) by extensions ['ros']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice1) by extension 'ros'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice1) by extensions ['cmake', 'python']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice1) by extension 'cmake'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice1) by extension 'python'
+[0.856s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp_practice1' with type 'cmake' and name 'list4arr'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice2) by extensions ['ignore', 'ignore_ament_install']
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice2) by extension 'ignore'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice2) by extension 'ignore_ament_install'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice2) by extensions ['colcon_pkg']
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice2) by extension 'colcon_pkg'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice2) by extensions ['colcon_meta']
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice2) by extension 'colcon_meta'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice2) by extensions ['ros']
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice2) by extension 'ros'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice2) by extensions ['cmake', 'python']
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice2) by extension 'cmake'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_practice2) by extension 'python'
+[0.857s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp_practice2' with type 'cmake' and name 'list4ptr'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282) by extensions ['ignore', 'ignore_ament_install']
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282) by extension 'ignore'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282) by extension 'ignore_ament_install'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282) by extensions ['colcon_pkg']
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282) by extension 'colcon_pkg'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282) by extensions ['colcon_meta']
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282) by extension 'colcon_meta'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282) by extensions ['ros']
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282) by extension 'ros'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282) by extensions ['cmake', 'python']
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282) by extension 'cmake'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282) by extension 'python'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282) by extensions ['python_setup_py']
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282) by extension 'python_setup_py'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/mymat) by extensions ['ignore', 'ignore_ament_install']
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/mymat) by extension 'ignore'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/mymat) by extension 'ignore_ament_install'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/mymat) by extensions ['colcon_pkg']
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/mymat) by extension 'colcon_pkg'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/mymat) by extensions ['colcon_meta']
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/mymat) by extension 'colcon_meta'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/mymat) by extensions ['ros']
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/mymat) by extension 'ros'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/mymat) by extensions ['cmake', 'python']
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/mymat) by extension 'cmake'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/mymat) by extension 'python'
+[0.859s] DEBUG:colcon.colcon_core.package_identification:Package 'hw2_20200282/mymat' with type 'cmake' and name 'homework2'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/simulation) by extension 'ignore'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/simulation) by extension 'ignore_ament_install'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/simulation) by extensions ['colcon_pkg']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/simulation) by extension 'colcon_pkg'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/simulation) by extensions ['colcon_meta']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/simulation) by extension 'colcon_meta'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/simulation) by extensions ['ros']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/simulation) by extension 'ros'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/simulation) by extensions ['cmake', 'python']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/simulation) by extension 'cmake'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_20200282/simulation) by extension 'python'
+[0.862s] DEBUG:colcon.colcon_core.package_identification:Package 'hw2_20200282/simulation' with type 'cmake' and name 'homework2'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024) by extensions ['ignore', 'ignore_ament_install']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024) by extension 'ignore'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024) by extension 'ignore_ament_install'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024) by extensions ['colcon_pkg']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024) by extension 'colcon_pkg'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024) by extensions ['colcon_meta']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024) by extension 'colcon_meta'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024) by extensions ['ros']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024) by extension 'ros'
+[0.865s] DEBUG:colcon.colcon_core.package_identification:Package 'midterm_2024' with type 'ros.ament_cmake' and name 'midterm_2024'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_cpp) by extension 'ignore'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_cpp) by extension 'ignore_ament_install'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_cpp) by extensions ['colcon_pkg']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_cpp) by extension 'colcon_pkg'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_cpp) by extensions ['colcon_meta']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_cpp) by extension 'colcon_meta'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_cpp) by extensions ['ros']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_cpp) by extension 'ros'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_cpp) by extensions ['cmake', 'python']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_cpp) by extension 'cmake'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_cpp) by extension 'python'
+[0.867s] DEBUG:colcon.colcon_core.package_identification:Package 'midterm_2024_cpp' with type 'cmake' and name 'midterm'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_lib) by extensions ['ignore', 'ignore_ament_install']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_lib) by extension 'ignore'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_lib) by extension 'ignore_ament_install'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_lib) by extensions ['colcon_pkg']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_lib) by extension 'colcon_pkg'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_lib) by extensions ['colcon_meta']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_lib) by extension 'colcon_meta'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_lib) by extensions ['ros']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_lib) by extension 'ros'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_lib) by extensions ['cmake', 'python']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_lib) by extension 'cmake'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_lib) by extension 'python'
+[0.869s] DEBUG:colcon.colcon_core.package_identification:Package 'midterm_2024_lib' with type 'cmake' and name 'midterm'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_msg) by extension 'ignore'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_msg) by extension 'ignore_ament_install'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_msg) by extensions ['colcon_pkg']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_msg) by extension 'colcon_pkg'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_msg) by extensions ['colcon_meta']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_msg) by extension 'colcon_meta'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_msg) by extensions ['ros']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(midterm_2024_msg) by extension 'ros'
+[0.870s] DEBUG:colcon.colcon_core.package_identification:Package 'midterm_2024_msg' with type 'ros.ament_cmake' and name 'midterm_2024_msg'
+[0.870s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.870s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.870s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.870s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.870s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.907s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'homework2' in 'hw2_20200282/mymat'
+[0.907s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'homework2' in 'hw2_20200282/simulation'
+[0.907s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'list4arr' in 'cpp_practice1'
+[0.907s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'list4ptr' in 'cpp_practice2'
+[0.907s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'midterm' in 'midterm_2024_lib'
+[0.907s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'midterm' in 'midterm_2024_cpp'
+[0.907s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'midterm_2024_msg' in 'midterm_2024_msg'
+[0.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.937s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 309 installed packages in /opt/ros/humble
+[0.938s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.001s] Level 5:colcon.colcon_core.verb:set package 'midterm_2024' build argument 'cmake_args' from command line to 'None'
+[1.001s] Level 5:colcon.colcon_core.verb:set package 'midterm_2024' build argument 'cmake_target' from command line to 'None'
+[1.001s] Level 5:colcon.colcon_core.verb:set package 'midterm_2024' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.001s] Level 5:colcon.colcon_core.verb:set package 'midterm_2024' build argument 'cmake_clean_cache' from command line to 'False'
+[1.001s] Level 5:colcon.colcon_core.verb:set package 'midterm_2024' build argument 'cmake_clean_first' from command line to 'False'
+[1.001s] Level 5:colcon.colcon_core.verb:set package 'midterm_2024' build argument 'cmake_force_configure' from command line to 'False'
+[1.001s] Level 5:colcon.colcon_core.verb:set package 'midterm_2024' build argument 'ament_cmake_args' from command line to 'None'
+[1.001s] Level 5:colcon.colcon_core.verb:set package 'midterm_2024' build argument 'catkin_cmake_args' from command line to 'None'
+[1.001s] Level 5:colcon.colcon_core.verb:set package 'midterm_2024' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.001s] DEBUG:colcon.colcon_core.verb:Building package 'midterm_2024' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dareum/ME454/cpp_ws/build/midterm_2024', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dareum/ME454/cpp_ws/install/midterm_2024', 'merge_install': False, 'path': '/home/dareum/ME454/cpp_ws/midterm_2024', 'symlink_install': False, 'test_result_base': None}
+[1.009s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.017s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.018s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dareum/ME454/cpp_ws/midterm_2024' with build type 'ament_cmake'
+[1.018s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dareum/ME454/cpp_ws/midterm_2024'
+[1.027s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.028s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.028s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dareum/ME454/cpp_ws/build/midterm_2024': AMENT_PREFIX_PATH=/home/dareum/ME454/cpp_ws/install/midterm_2024_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dareum/ME454/cpp_ws/install/midterm_2024_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/dareum/ME454/cpp_ws/install/midterm_2024_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dareum/ME454/cpp_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dareum/ME454/cpp_ws/midterm_2024 -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/cpp_ws/install/midterm_2024
+[10.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dareum/ME454/cpp_ws/build/midterm_2024' returned '0': AMENT_PREFIX_PATH=/home/dareum/ME454/cpp_ws/install/midterm_2024_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dareum/ME454/cpp_ws/install/midterm_2024_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/dareum/ME454/cpp_ws/install/midterm_2024_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dareum/ME454/cpp_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dareum/ME454/cpp_ws/midterm_2024 -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/cpp_ws/install/midterm_2024
+[10.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dareum/ME454/cpp_ws/build/midterm_2024': AMENT_PREFIX_PATH=/home/dareum/ME454/cpp_ws/install/midterm_2024_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dareum/ME454/cpp_ws/install/midterm_2024_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/dareum/ME454/cpp_ws/install/midterm_2024_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dareum/ME454/cpp_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dareum/ME454/cpp_ws/build/midterm_2024 -- -j16 -l16
+[15.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dareum/ME454/cpp_ws/build/midterm_2024' returned '2': AMENT_PREFIX_PATH=/home/dareum/ME454/cpp_ws/install/midterm_2024_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dareum/ME454/cpp_ws/install/midterm_2024_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/dareum/ME454/cpp_ws/install/midterm_2024_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dareum/ME454/cpp_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dareum/ME454/cpp_ws/build/midterm_2024 -- -j16 -l16
+[15.278s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(midterm_2024)
+[15.284s] Level 1:colcon.colcon_core.environment:checking '/home/dareum/ME454/cpp_ws/install/midterm_2024' for CMake module files
+[15.285s] Level 1:colcon.colcon_core.environment:checking '/home/dareum/ME454/cpp_ws/install/midterm_2024' for CMake config files
+[15.285s] Level 1:colcon.colcon_core.environment:checking '/home/dareum/ME454/cpp_ws/install/midterm_2024/bin'
+[15.285s] Level 1:colcon.colcon_core.environment:checking '/home/dareum/ME454/cpp_ws/install/midterm_2024/lib/pkgconfig/midterm_2024.pc'
+[15.285s] Level 1:colcon.colcon_core.environment:checking '/home/dareum/ME454/cpp_ws/install/midterm_2024/lib/python3.10/site-packages'
+[15.285s] Level 1:colcon.colcon_core.environment:checking '/home/dareum/ME454/cpp_ws/install/midterm_2024/bin'
+[15.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/dareum/ME454/cpp_ws/install/midterm_2024/share/midterm_2024/package.ps1'
+[15.293s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dareum/ME454/cpp_ws/install/midterm_2024/share/midterm_2024/package.dsv'
+[15.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/dareum/ME454/cpp_ws/install/midterm_2024/share/midterm_2024/package.sh'
+[15.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/dareum/ME454/cpp_ws/install/midterm_2024/share/midterm_2024/package.bash'
+[15.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/dareum/ME454/cpp_ws/install/midterm_2024/share/midterm_2024/package.zsh'
+[15.295s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dareum/ME454/cpp_ws/install/midterm_2024/share/colcon-core/packages/midterm_2024)
+[15.305s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.306s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.306s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[15.306s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.361s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[15.361s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.361s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.361s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[148.288s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally with the following error: Autolaunch error: X11 initialization failed.
+
+[148.289s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[148.301s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dareum/ME454/cpp_ws/install/local_setup.ps1'
+[148.302s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dareum/ME454/cpp_ws/install/_local_setup_util_ps1.py'
+[148.303s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dareum/ME454/cpp_ws/install/setup.ps1'
+[148.313s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dareum/ME454/cpp_ws/install/local_setup.sh'
+[148.314s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dareum/ME454/cpp_ws/install/_local_setup_util_sh.py'
+[148.314s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dareum/ME454/cpp_ws/install/setup.sh'
+[148.324s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dareum/ME454/cpp_ws/install/local_setup.bash'
+[148.325s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dareum/ME454/cpp_ws/install/setup.bash'
+[148.334s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dareum/ME454/cpp_ws/install/local_setup.zsh'
+[148.335s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dareum/ME454/cpp_ws/install/setup.zsh'

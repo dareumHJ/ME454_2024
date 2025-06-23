@@ -1,0 +1,2 @@
+Invoking command in '/home/dareum/ME454/ros2_ws/build/tricycle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/tricycle -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/tricycle
+Invoked command in '/home/dareum/ME454/ros2_ws/build/tricycle' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/tricycle -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/tricycle

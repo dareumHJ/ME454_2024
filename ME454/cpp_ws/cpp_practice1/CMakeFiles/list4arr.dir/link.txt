@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/list4arr.dir/src/listops.cpp.o CMakeFiles/list4arr.dir/list4arr.cpp.o -o list4arr 

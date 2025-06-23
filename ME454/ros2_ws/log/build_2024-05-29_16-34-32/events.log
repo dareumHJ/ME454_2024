@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000690] (-) JobUnselected: {'identifier': 'ball_throwing'}
+[0.000998] (-) JobUnselected: {'identifier': 'bowling'}
+[0.001090] (-) JobUnselected: {'identifier': 'cartpole'}
+[0.001134] (-) JobUnselected: {'identifier': 'coin_rolling'}
+[0.001206] (-) JobUnselected: {'identifier': 'coin_rolling_msg'}
+[0.001393] (-) JobUnselected: {'identifier': 'crankshaft'}
+[0.001629] (-) JobUnselected: {'identifier': 'four_bar_linkage'}
+[0.001767] (-) JobUnselected: {'identifier': 'friction_test'}
+[0.001806] (-) JobUnselected: {'identifier': 'gauss_summation'}
+[0.001842] (-) JobUnselected: {'identifier': 'gazebo_ros2_control_demos'}
+[0.001859] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001894] (-) JobUnselected: {'identifier': 'pendulum_movement'}
+[0.001939] (-) JobUnselected: {'identifier': 'tricycle'}
+[0.001973] (-) JobUnselected: {'identifier': 'vibration'}
+[0.001990] (lidar_basic) JobQueued: {'identifier': 'lidar_basic', 'dependencies': OrderedDict()}
+[0.002028] (lidar_basic) JobStarted: {'identifier': 'lidar_basic'}
+[0.009780] (lidar_basic) JobProgress: {'identifier': 'lidar_basic', 'progress': 'cmake'}
+[0.010644] (lidar_basic) JobProgress: {'identifier': 'lidar_basic', 'progress': 'build'}
+[0.011744] (lidar_basic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dareum/ME454/ros2_ws/build/lidar_basic', '--', '-j16', '-l16'], 'cwd': '/home/dareum/ME454/ros2_ws/build/lidar_basic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dareum'), ('GIT_ASKPASS', '/home/dareum/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dareum/.mujoco/mujoco210/bin:/usr/local/lib'), ('HOME', '/home/dareum'), ('OLDPWD', '/home/dareum/ME454/repos/ME454_2024'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('NVM_BIN', '/home/dareum/.nvm/versions/node/v20.12.2/bin'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-659f10d7-5ea4-424a-b084-9c5feb1be319.sock'), ('NVM_INC', '/home/dareum/.nvm/versions/node/v20.12.2/include/node'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dareum/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dareum/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/dareum/.nvm'), ('COLCON_PREFIX_PATH', '/home/dareum/ME454/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dareum'), ('NAME', 'DAREUM'), ('WSL_INTEROP', '/run/WSL/12_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dareum/.mujoco/mujoco210/bin:/home/dareum/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/home/dareum/.nvm/versions/node/v20.12.2/bin:/opt/ros/humble/bin::/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/gnuplot/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/dareu/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/dareu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/dareu/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/dareum/.dotnet/tools:/home/dareum/.local/share/coursier/bin'), ('DISPLAY', '172.18.16.1:0'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/dareum/.cache/dotnet_bundle_extract'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-3c5449984f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/dareum/ME454/ros2_ws/install/lidar_basic:/home/dareum/ME454/ros2_ws/install/cartpole:/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/dareum/ME454/ros2_ws/build/lidar_basic'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/dareum/ME454/ros2_ws/install/lidar_basic:/home/dareum/ME454/ros2_ws/install/cartpole:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.076653] (lidar_basic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lidar_process.dir/src/lidar_process.cpp.o\x1b[0m\n'}
+[0.099612] (-) TimerEvent: {}
+[0.200089] (-) TimerEvent: {}
+[0.300612] (-) TimerEvent: {}
+[0.401089] (-) TimerEvent: {}
+[0.501578] (-) TimerEvent: {}
+[0.602114] (-) TimerEvent: {}
+[0.702768] (-) TimerEvent: {}
+[0.803260] (-) TimerEvent: {}
+[0.903900] (-) TimerEvent: {}
+[1.004406] (-) TimerEvent: {}
+[1.104905] (-) TimerEvent: {}
+[1.205427] (-) TimerEvent: {}
+[1.305906] (-) TimerEvent: {}
+[1.406371] (-) TimerEvent: {}
+[1.506857] (-) TimerEvent: {}
+[1.607430] (-) TimerEvent: {}
+[1.707983] (-) TimerEvent: {}
+[1.808468] (-) TimerEvent: {}
+[1.908976] (-) TimerEvent: {}
+[2.009559] (-) TimerEvent: {}
+[2.110157] (-) TimerEvent: {}
+[2.210772] (-) TimerEvent: {}
+[2.311288] (-) TimerEvent: {}
+[2.412023] (-) TimerEvent: {}
+[2.512484] (-) TimerEvent: {}
+[2.613168] (-) TimerEvent: {}
+[2.714260] (-) TimerEvent: {}
+[2.814742] (-) TimerEvent: {}
+[2.915528] (-) TimerEvent: {}
+[3.016080] (-) TimerEvent: {}
+[3.116754] (-) TimerEvent: {}
+[3.217268] (-) TimerEvent: {}
+[3.317744] (-) TimerEvent: {}
+[3.418214] (-) TimerEvent: {}
+[3.518784] (-) TimerEvent: {}
+[3.619266] (-) TimerEvent: {}
+[3.720056] (-) TimerEvent: {}
+[3.820693] (-) TimerEvent: {}
+[3.921405] (-) TimerEvent: {}
+[4.021870] (-) TimerEvent: {}
+[4.122454] (-) TimerEvent: {}
+[4.222944] (-) TimerEvent: {}
+[4.323492] (-) TimerEvent: {}
+[4.423932] (-) TimerEvent: {}
+[4.524348] (-) TimerEvent: {}
+[4.624849] (-) TimerEvent: {}
+[4.725482] (-) TimerEvent: {}
+[4.826030] (-) TimerEvent: {}
+[4.926490] (-) TimerEvent: {}
+[5.026965] (-) TimerEvent: {}
+[5.127688] (-) TimerEvent: {}
+[5.228314] (-) TimerEvent: {}
+[5.329085] (lidar_basic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/ros2_ws/src/lidar_basic/src/lidar_process.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LidarSubsciber::point_callback(sensor_msgs::msg::PointCloud_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.329603] (-) TimerEvent: {}
+[5.329790] (lidar_basic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/ros2_ws/src/lidar_basic/src/lidar_process.cpp:72:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::normal_distribution<double>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 in assignment\n'}
+[5.329932] (lidar_basic) StderrLine: {'line': b'   72 |         cloud_a->at(i_pc).x = \x1b[01;31m\x1b[Kdistribution\x1b[m\x1b[K;\n'}
+[5.330002] (lidar_basic) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.330063] (lidar_basic) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[5.330117] (lidar_basic) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[Kstd::normal_distribution<double>\x1b[m\x1b[K\n'}
+[5.330167] (lidar_basic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/ros2_ws/src/lidar_basic/src/lidar_process.cpp:73:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::normal_distribution<double>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 in assignment\n'}
+[5.330214] (lidar_basic) StderrLine: {'line': b'   73 |         cloud_a->at(i_pc).y = \x1b[01;31m\x1b[Kdistribution\x1b[m\x1b[K;\n'}
+[5.330259] (lidar_basic) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.330303] (lidar_basic) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[5.330347] (lidar_basic) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[Kstd::normal_distribution<double>\x1b[m\x1b[K\n'}
+[5.330394] (lidar_basic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dareum/ME454/ros2_ws/src/lidar_basic/src/lidar_process.cpp:74:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::normal_distribution<double>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 in assignment\n'}
+[5.330442] (lidar_basic) StderrLine: {'line': b'   74 |         cloud_a->at(i_pc).z = \x1b[01;31m\x1b[Kdistribution\x1b[m\x1b[K;\n'}
+[5.330487] (lidar_basic) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.330514] (lidar_basic) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[5.330536] (lidar_basic) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[Kstd::normal_distribution<double>\x1b[m\x1b[K\n'}
+[5.429760] (-) TimerEvent: {}
+[5.530196] (-) TimerEvent: {}
+[5.630666] (-) TimerEvent: {}
+[5.731153] (-) TimerEvent: {}
+[5.831644] (-) TimerEvent: {}
+[5.932204] (-) TimerEvent: {}
+[6.032858] (-) TimerEvent: {}
+[6.133456] (-) TimerEvent: {}
+[6.233892] (-) TimerEvent: {}
+[6.334357] (-) TimerEvent: {}
+[6.434787] (-) TimerEvent: {}
+[6.535313] (-) TimerEvent: {}
+[6.635963] (-) TimerEvent: {}
+[6.736567] (-) TimerEvent: {}
+[6.837250] (-) TimerEvent: {}
+[6.938004] (-) TimerEvent: {}
+[7.038686] (-) TimerEvent: {}
+[7.139365] (-) TimerEvent: {}
+[7.240033] (-) TimerEvent: {}
+[7.340613] (-) TimerEvent: {}
+[7.441027] (-) TimerEvent: {}
+[7.541512] (-) TimerEvent: {}
+[7.642091] (-) TimerEvent: {}
+[7.742698] (-) TimerEvent: {}
+[7.843316] (-) TimerEvent: {}
+[7.943851] (-) TimerEvent: {}
+[8.044462] (-) TimerEvent: {}
+[8.145131] (-) TimerEvent: {}
+[8.245762] (-) TimerEvent: {}
+[8.346593] (-) TimerEvent: {}
+[8.447127] (-) TimerEvent: {}
+[8.547832] (-) TimerEvent: {}
+[8.648262] (-) TimerEvent: {}
+[8.748758] (-) TimerEvent: {}
+[8.849315] (-) TimerEvent: {}
+[8.949843] (-) TimerEvent: {}
+[8.965085] (lidar_basic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lidar_process.dir/build.make:76: CMakeFiles/lidar_process.dir/src/lidar_process.cpp.o] Error 1\n'}
+[8.965510] (lidar_basic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_process.dir/all] Error 2\n'}
+[8.965652] (lidar_basic) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.967883] (lidar_basic) CommandEnded: {'returncode': 2}
+[9.013421] (lidar_basic) JobEnded: {'identifier': 'lidar_basic', 'rc': 2}
+[9.024565] (-) EventReactorShutdown: {}

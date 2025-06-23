@@ -1,0 +1,5 @@
+[0.121s] Invoking command in '/home/dareum/ME454/ros2_ws/build/lidar_basic': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(mujoco_py) /usr/bin/cmake --build /home/dareum/ME454/ros2_ws/build/lidar_basic -- -j16 -l16
+[0.369s] [35m[1mConsolidate compiler generated dependencies of target lidar_process[0m
+[0.505s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_process.dir/src/lidar_process.cpp.o[0m
+[20.087s] [100%] [32m[1mLinking CXX executable lidar_process[0m
+[21.766s] [100%] Built target lidar_process

@@ -1,0 +1,1 @@
+Invoking command in '/home/dareum/ME454/ros2_ws/build/gauss_summation': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(mujoco_py) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/gauss_summation -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/gauss_summation

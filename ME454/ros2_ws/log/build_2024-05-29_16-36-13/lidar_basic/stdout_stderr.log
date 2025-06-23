@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target lidar_process[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lidar_process.dir/src/lidar_process.cpp.o[0m
+gmake[2]: *** [CMakeFiles/lidar_process.dir/build.make:76: CMakeFiles/lidar_process.dir/src/lidar_process.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_process.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

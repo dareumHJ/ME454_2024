@@ -1,0 +1,3 @@
+/home/dareum/ME454/cpp_ws/midterm_2024_cpp/build/CMakeFiles/earth_precession_20200282.dir
+/home/dareum/ME454/cpp_ws/midterm_2024_cpp/build/CMakeFiles/edit_cache.dir
+/home/dareum/ME454/cpp_ws/midterm_2024_cpp/build/CMakeFiles/rebuild_cache.dir

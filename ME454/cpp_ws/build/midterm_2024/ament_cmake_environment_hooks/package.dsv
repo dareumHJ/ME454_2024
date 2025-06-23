@@ -1,0 +1,4 @@
+source;share/midterm_2024/local_setup.bash
+source;share/midterm_2024/local_setup.dsv
+source;share/midterm_2024/local_setup.sh
+source;share/midterm_2024/local_setup.zsh

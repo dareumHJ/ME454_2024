@@ -1,0 +1,35 @@
+[0.121s] Invoking command in '/home/dareum/ME454/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(mujoco_py) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/my_package
+[4.541s] -- The C compiler identification is GNU 12.1.0
+[4.543s] -- The CXX compiler identification is GNU 11.4.0
+[4.544s] -- Detecting C compiler ABI info
+[4.545s] -- Detecting C compiler ABI info - done
+[4.545s] -- Check for working C compiler: /home/dareum/anaconda3/envs/mujoco_py/bin/cc - skipped
+[4.545s] -- Detecting C compile features
+[4.545s] -- Detecting C compile features - done
+[4.545s] -- Detecting CXX compiler ABI info
+[4.545s] -- Detecting CXX compiler ABI info - done
+[4.545s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.545s] -- Detecting CXX compile features
+[4.545s] -- Detecting CXX compile features - done
+[4.545s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.545s] -- Found Python3: /home/dareum/anaconda3/envs/mujoco_py/bin/python3 (found version "3.8.19") found components: Interpreter 
+[4.545s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.596s] Traceback (most recent call last):
+[4.596s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[4.597s]     from catkin_pkg.package import parse_package_string
+[4.597s] ModuleNotFoundError: No module named 'catkin_pkg'
+[4.597s] -- Configuring incomplete, errors occurred!
+[4.597s] See also "/home/dareum/ME454/ros2_ws/build/my_package/CMakeFiles/CMakeOutput.log".
+[4.597s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[4.598s]   execute_process(/home/dareum/anaconda3/envs/mujoco_py/bin/python3
+[4.598s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[4.598s]   /home/dareum/ME454/ros2_ws/src/my_package/package.xml
+[4.598s]   /home/dareum/ME454/ros2_ws/build/my_package/ament_cmake_core/package.cmake)
+[4.599s]   returned error code 1
+[4.599s] Call Stack (most recent call first):
+[4.599s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[4.599s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[4.599s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[4.599s] 
+[4.599s] [0m
+[4.631s] Invoked command in '/home/dareum/ME454/ros2_ws/build/my_package' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(mujoco_py) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/my_package

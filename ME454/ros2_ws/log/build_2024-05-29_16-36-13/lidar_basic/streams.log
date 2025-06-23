@@ -1,0 +1,7 @@
+[0.015s] Invoking command in '/home/dareum/ME454/ros2_ws/build/lidar_basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dareum/ME454/ros2_ws/build/lidar_basic -- -j16 -l16
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target lidar_process[0m
+[0.078s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_process.dir/src/lidar_process.cpp.o[0m
+[9.761s] gmake[2]: *** [CMakeFiles/lidar_process.dir/build.make:76: CMakeFiles/lidar_process.dir/src/lidar_process.cpp.o] Interrupt
+[9.761s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_process.dir/all] Interrupt
+[9.761s] gmake: *** [Makefile:146: all] Interrupt
+[9.791s] Invoked command in '/home/dareum/ME454/ros2_ws/build/lidar_basic' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dareum/ME454/ros2_ws/build/lidar_basic -- -j16 -l16

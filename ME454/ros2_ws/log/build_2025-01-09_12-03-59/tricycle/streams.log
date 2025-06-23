@@ -1,0 +1,35 @@
+[0.136s] Invoking command in '/home/dareum/ME454/ros2_ws/build/tricycle': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(mujoco_py) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/tricycle -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/tricycle
+[4.571s] -- The C compiler identification is GNU 12.1.0
+[4.571s] -- The CXX compiler identification is GNU 11.4.0
+[4.571s] -- Detecting C compiler ABI info
+[4.571s] -- Detecting C compiler ABI info - done
+[4.571s] -- Check for working C compiler: /home/dareum/anaconda3/envs/mujoco_py/bin/cc - skipped
+[4.571s] -- Detecting C compile features
+[4.571s] -- Detecting C compile features - done
+[4.572s] -- Detecting CXX compiler ABI info
+[4.572s] -- Detecting CXX compiler ABI info - done
+[4.572s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.572s] -- Detecting CXX compile features
+[4.573s] -- Detecting CXX compile features - done
+[4.573s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.573s] -- Found Python3: /home/dareum/anaconda3/envs/mujoco_py/bin/python3 (found version "3.8.19") found components: Interpreter 
+[4.574s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.574s] -- Configuring incomplete, errors occurred!
+[4.574s] See also "/home/dareum/ME454/ros2_ws/build/tricycle/CMakeFiles/CMakeOutput.log".
+[4.580s] Traceback (most recent call last):
+[4.580s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[4.580s]     from catkin_pkg.package import parse_package_string
+[4.580s] ModuleNotFoundError: No module named 'catkin_pkg'
+[4.580s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[4.580s]   execute_process(/home/dareum/anaconda3/envs/mujoco_py/bin/python3
+[4.581s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[4.582s]   /home/dareum/ME454/ros2_ws/src/tricycle/package.xml
+[4.582s]   /home/dareum/ME454/ros2_ws/build/tricycle/ament_cmake_core/package.cmake)
+[4.582s]   returned error code 1
+[4.582s] Call Stack (most recent call first):
+[4.583s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[4.583s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[4.583s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[4.583s] 
+[4.583s] [0m
+[4.585s] Invoked command in '/home/dareum/ME454/ros2_ws/build/tricycle' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(mujoco_py) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/tricycle -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/tricycle

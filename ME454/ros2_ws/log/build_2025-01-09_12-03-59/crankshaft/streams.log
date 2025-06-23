@@ -1,0 +1,56 @@
+[0.102s] Invoking command in '/home/dareum/ME454/ros2_ws/build/crankshaft': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(mujoco_py) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/crankshaft -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/crankshaft
+[0.649s] -- The C compiler identification is GNU 12.1.0
+[2.203s] -- The CXX compiler identification is GNU 11.4.0
+[2.875s] -- Detecting C compiler ABI info
+[3.228s] -- Detecting C compiler ABI info - done
+[3.238s] -- Check for working C compiler: /home/dareum/anaconda3/envs/mujoco_py/bin/cc - skipped
+[3.238s] -- Detecting C compile features
+[3.239s] -- Detecting C compile features - done
+[3.243s] -- Detecting CXX compiler ABI info
+[3.514s] -- Detecting CXX compiler ABI info - done
+[3.527s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.528s] -- Detecting CXX compile features
+[3.528s] -- Detecting CXX compile features - done
+[3.534s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.298s] -- Found Python3: /home/dareum/anaconda3/envs/mujoco_py/bin/python3 (found version "3.8.19") found components: Interpreter 
+[4.467s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[4.750s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.755s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.764s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.776s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.796s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.871s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.873s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.762s] -- Found OpenSSL: /home/linuxbrew/.linuxbrew/Cellar/openssl@3/3.3.1/lib/libcrypto.so (found version "3.3.1")  
+[6.697s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.250s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.266s] -- Looking for pthread.h
+[9.454s] -- Looking for pthread.h - found
+[9.455s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.648s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.648s] -- Looking for pthread_create in pthreads
+[9.861s] -- Looking for pthread_create in pthreads - not found
+[9.861s] -- Looking for pthread_create in pthread
+[10.059s] -- Looking for pthread_create in pthread - found
+[10.060s] -- Found Threads: TRUE  
+[10.230s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[10.514s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.545s] Traceback (most recent call last):
+[10.545s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[10.545s]     from catkin_pkg.package import parse_package_string
+[10.545s] ModuleNotFoundError: No module named 'catkin_pkg'
+[10.552s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[10.553s]   execute_process(/home/dareum/anaconda3/envs/mujoco_py/bin/python3
+[10.553s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[10.553s]   /home/dareum/ME454/ros2_ws/src/crankshaft/package.xml
+[10.553s]   /home/dareum/ME454/ros2_ws/build/crankshaft/ament_cmake_core/package.cmake)
+[10.553s]   returned error code 1
+[10.553s] Call Stack (most recent call first):
+[10.553s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[10.553s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[10.553s]   CMakeLists.txt:45 (ament_lint_auto_find_test_dependencies)
+[10.553s] 
+[10.553s] [0m
+[10.553s] -- Configuring incomplete, errors occurred!
+[10.553s] See also "/home/dareum/ME454/ros2_ws/build/crankshaft/CMakeFiles/CMakeOutput.log".
+[10.553s] See also "/home/dareum/ME454/ros2_ws/build/crankshaft/CMakeFiles/CMakeError.log".

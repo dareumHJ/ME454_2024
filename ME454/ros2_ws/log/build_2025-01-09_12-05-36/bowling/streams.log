@@ -1,0 +1,22 @@
+[0.163s] Invoking command in '/home/dareum/ME454/ros2_ws/build/bowling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/bowling -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/bowling
+[0.319s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.673s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.756s] Traceback (most recent call last):
+[0.757s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.757s]     from catkin_pkg.package import parse_package_string
+[0.757s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.784s] -- Configuring incomplete, errors occurred!
+[0.785s] See also "/home/dareum/ME454/ros2_ws/build/bowling/CMakeFiles/CMakeOutput.log".
+[0.790s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.791s]   execute_process(/home/dareum/anaconda3/envs/mujoco_py/bin/python3
+[0.795s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.798s]   /home/dareum/ME454/ros2_ws/src/bowling/package.xml
+[0.800s]   /home/dareum/ME454/ros2_ws/build/bowling/ament_cmake_core/package.cmake)
+[0.802s]   returned error code 1
+[0.804s] Call Stack (most recent call first):
+[0.805s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.805s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.805s]   CMakeLists.txt:38 (ament_lint_auto_find_test_dependencies)
+[0.806s] 
+[0.806s] [0m
+[0.818s] Invoked command in '/home/dareum/ME454/ros2_ws/build/bowling' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/bowling -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/bowling

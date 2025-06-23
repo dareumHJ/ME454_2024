@@ -1,0 +1,2 @@
+Invoking command in '/home/dareum/ME454/ros2_ws/build/pendulum_movement': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(mujoco_py) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/pendulum_movement -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/pendulum_movement
+Invoked command in '/home/dareum/ME454/ros2_ws/build/pendulum_movement' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(mujoco_py) /usr/bin/cmake /home/dareum/ME454/ros2_ws/src/pendulum_movement -DCMAKE_INSTALL_PREFIX=/home/dareum/ME454/ros2_ws/install/pendulum_movement
